@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/bin/Debug/net6.0/Estructura_Switch_Case
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/bin/Debug/net6.0/Estructura_Switch_Case.deps.json
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/bin/Debug/net6.0/Estructura_Switch_Case.runtimeconfig.json
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/bin/Debug/net6.0/Estructura_Switch_Case.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/bin/Debug/net6.0/ref/Estructura_Switch_Case.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/bin/Debug/net6.0/Estructura_Switch_Case.pdb
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/obj/Debug/net6.0/Estructura_Switch_Case.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/obj/Debug/net6.0/Estructura_Switch_Case.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/obj/Debug/net6.0/Estructura_Switch_Case.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/obj/Debug/net6.0/Estructura_Switch_Case.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/obj/Debug/net6.0/Estructura_Switch_Case.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/obj/Debug/net6.0/Estructura_Switch_Case.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/obj/Debug/net6.0/ref/Estructura_Switch_Case.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/obj/Debug/net6.0/Estructura_Switch_Case.pdb
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Switch_Case/obj/Debug/net6.0/Estructura_Switch_Case.genruntimeconfig.cache

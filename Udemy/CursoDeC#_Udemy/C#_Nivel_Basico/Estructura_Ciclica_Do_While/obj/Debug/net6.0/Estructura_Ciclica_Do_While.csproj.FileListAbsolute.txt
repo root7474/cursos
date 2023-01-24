@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/bin/Debug/net6.0/Estructura_Ciclica_Do_While
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/bin/Debug/net6.0/Estructura_Ciclica_Do_While.deps.json
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/bin/Debug/net6.0/Estructura_Ciclica_Do_While.runtimeconfig.json
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/bin/Debug/net6.0/Estructura_Ciclica_Do_While.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/bin/Debug/net6.0/ref/Estructura_Ciclica_Do_While.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/bin/Debug/net6.0/Estructura_Ciclica_Do_While.pdb
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/obj/Debug/net6.0/Estructura_Ciclica_Do_While.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/obj/Debug/net6.0/Estructura_Ciclica_Do_While.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/obj/Debug/net6.0/Estructura_Ciclica_Do_While.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/obj/Debug/net6.0/Estructura_Ciclica_Do_While.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/obj/Debug/net6.0/Estructura_Ciclica_Do_While.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/obj/Debug/net6.0/Estructura_Ciclica_Do_While.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/obj/Debug/net6.0/ref/Estructura_Ciclica_Do_While.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/obj/Debug/net6.0/Estructura_Ciclica_Do_While.pdb
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/Estructura_Ciclica_Do_While/obj/Debug/net6.0/Estructura_Ciclica_Do_While.genruntimeconfig.cache

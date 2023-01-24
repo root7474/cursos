@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/bin/Debug/net6.0/Instruccion_For
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/bin/Debug/net6.0/Instruccion_For.deps.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/bin/Debug/net6.0/Instruccion_For.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/bin/Debug/net6.0/Instruccion_For.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/bin/Debug/net6.0/ref/Instruccion_For.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/bin/Debug/net6.0/Instruccion_For.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/obj/Debug/net6.0/Instruccion_For.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/obj/Debug/net6.0/Instruccion_For.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/obj/Debug/net6.0/Instruccion_For.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/obj/Debug/net6.0/Instruccion_For.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/obj/Debug/net6.0/Instruccion_For.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/obj/Debug/net6.0/Instruccion_For.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/obj/Debug/net6.0/ref/Instruccion_For.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/obj/Debug/net6.0/Instruccion_For.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Instruccion_For/obj/Debug/net6.0/Instruccion_For.genruntimeconfig.cache

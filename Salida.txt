@@ -1,0 +1,2 @@
+Nombre: Potato
+Precio: 20.5

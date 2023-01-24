@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/bin/Debug/net6.0/Ejercicios_Sesion_4
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/bin/Debug/net6.0/Ejercicios_Sesion_4.deps.json
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/bin/Debug/net6.0/Ejercicios_Sesion_4.runtimeconfig.json
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/bin/Debug/net6.0/Ejercicios_Sesion_4.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/bin/Debug/net6.0/ref/Ejercicios_Sesion_4.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/bin/Debug/net6.0/Ejercicios_Sesion_4.pdb
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/obj/Debug/net6.0/Ejercicios_Sesion_4.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/obj/Debug/net6.0/Ejercicios_Sesion_4.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/obj/Debug/net6.0/Ejercicios_Sesion_4.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/obj/Debug/net6.0/Ejercicios_Sesion_4.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/obj/Debug/net6.0/Ejercicios_Sesion_4.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/obj/Debug/net6.0/Ejercicios_Sesion_4.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/obj/Debug/net6.0/ref/Ejercicios_Sesion_4.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/obj/Debug/net6.0/Ejercicios_Sesion_4.pdb
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Ejercicios/Ejercicios_Sesion_4/obj/Debug/net6.0/Ejercicios_Sesion_4.genruntimeconfig.cache

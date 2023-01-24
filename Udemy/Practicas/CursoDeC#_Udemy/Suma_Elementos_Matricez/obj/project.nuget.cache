@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "iYEai2f4M9/lUdfPwcjvzEC3ocXR7Kr/7ur+gWxPLcPI1j1wTK1ToSXqTEoDxhqPJcbUNCB0AKaa+YyHO1xJgA==",
+  "success": true,
+  "projectFilePath": "/home/root7474/Documents/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Suma_Elementos_Matricez/Suma_Elementos_Matricez.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

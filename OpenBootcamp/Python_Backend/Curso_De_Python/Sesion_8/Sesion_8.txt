@@ -1,0 +1,139 @@
+numero = 511
+texto = "Quijote"
+otromas = 1.2
+
+# print("El número es %d y el texto es %s y tiene %f" % (numero, texto, otromas))
+# print("Valor flotante: %.1f" % otromas)
+
+# format()
+#print("El número es {1} y el texto es {0} y tine {2}".format(numero, texto, otromas))
+
+""" print("El número es {num} y el texto es {text} y tine {otro}"
+      .format(num=numero, text=texto, otro=otromas)) """
+
+# f Strings
+""" def suma(a, b):
+    return a + b
+
+print(f"El número es {suma(numero, numero)} y el texto es {texto.upper()} y tiene {otromas}") """
+
+""" class Juguete:
+    nombre = ""
+    precio = 0.0
+    
+    def __init__(self, nombre, precio):
+        self.nombre = nombre
+        self.precio = precio
+        
+    # Sobrecarga de métodos
+    def __str__(self):
+        return f"Mi nombre es {self.nombre} y mi precio es {self.precio}"
+    
+    # repr
+    def __repr__(self):
+        return self.__str__() """
+        
+""" j1 = Juguete("Potato", 10.5)
+j2 = Juguete("Dino", 3.4)
+
+representacionTextual = str(j1)
+print(representacionTextual) """
+
+""" print(type(demo))
+print(demo) """
+
+# print(repr(j1))
+# cadena = "en un lugar de la manchA"
+
+""" print(cadena.capitalize())
+print(cadena.title())
+print(cadena.count('a'))
+print(cadena.lower().count('a'))
+
+numero = "A2!"
+print(numero.isdigit())
+print(numero.isalnum())
+print(numero.isalpha())
+
+print(cadena)
+print(cadena.strip())
+print(cadena.lstrip())
+print(cadena.rstrip()) """
+
+""" print(cadena.split("en"))
+print(cadena.startswith("en"))
+print(cadena.lower().endswith("mancha")) """
+
+""" f = open("/etc/passwd", "r")
+datos = f.readlines() """
+
+""" datos = None
+
+while datos != "":
+    datos = f.readline()
+    print(datos) """
+
+""" def main():
+    usuarios = listarUsuarios()
+    for usuario in usuarios:
+        print(f"Usuario: {usuario}")
+        
+def listarUsuarios():
+    f = open("/etc/passwd", "r")
+    datos = f.readlines()
+    f.close()
+    
+    resultado = []
+    for linea in datos:
+        if linea[0] == "#":
+            continue
+        
+        if linea[0] == "_":
+            continue
+        
+        partes = linea.split(":")
+        # print(linea)
+        # print(partes[0])
+        resultado.append(partes[0])
+        
+    return resultado
+        
+if __name__ == "__main__":
+    main() """
+    
+# Ficheros
+def escribe(fichero, datos):
+    f = open(fichero, "w")
+    
+    for linea in datos:
+        if not linea.endswith("\n"):
+            print(f"Línea sin \\n: {linea}")
+            linea += "\n"
+            
+        f.writelines(linea)
+        
+    f.close()
+    
+lista = [
+    'Una línea',
+    'Dos líneas\n',
+    'Tres líneas'
+]
+
+escribe("mifichero.txt", lista)
+
+""" f.write("datos\n")
+f.write("datos2\n") """
+
+
+
+# r: Lectura
+# a: append
+# w: Escritura
+# x: Create
+
+# t: Texto
+# b: binary
+
+# +
+

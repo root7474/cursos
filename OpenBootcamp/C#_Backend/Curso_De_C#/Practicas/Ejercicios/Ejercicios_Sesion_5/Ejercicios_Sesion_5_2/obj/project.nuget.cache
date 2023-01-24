@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VVShA2TJ4CZU2WDRdC8S/9gzRSk40mZfldGPfdsqwhiKcONLqpFRcKiDru+4pZ4aGX829GF1PQ6ChjZWWobr6w==",
+  "success": true,
+  "projectFilePath": "/home/root7474/Documents/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_De_C#/Practicas/Ejercicios/Ejercicios_Sesion_5/Ejercicios_Sesion_5_2/Ejercicios_Sesion_5_2.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

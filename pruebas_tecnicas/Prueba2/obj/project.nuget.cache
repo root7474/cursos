@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NxgKwCU9oI5WDudsLfE9HSFnblWz6g7ZI5WhLa9/KJx6yhpM4AGzZZG6Vp6YtYJz/kjHDZWoHnkQww/MY2/fXA==",
+  "success": true,
+  "projectFilePath": "/home/root7474/Documents/Documents/Cursos/pruebas_tecnicas/Prueba2/Prueba2.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+
+    <style>
+        /* a {
+            text-decoration: none;
+        }
+
+        a:link {color: red;}
+        a:visited {color: gray;}
+        a:hover {color: pink; text-decoration: underline;}
+        a:active {color: green;} */
+
+        /* div#mydiv {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        } */
+
+        /* @keyframes example { */
+            /* from {background-color: red;}
+            to {background-color: yellow;} */
+
+            /* 0%      {background-color: red; left: 0px; top: 0px}
+            25%     {background-color: yellow; left: 200px; top: 0px;}
+            50%     {background-color: blue; left: 200px; top: 200px;}
+            75%     {background-color: green; left: 0px; top: 200px;}
+            100%    {background-color: red; left: 0px; top: 0px;}
+        } */
+
+        /* div {
+            width: 300px;
+            height: 100px;
+            background-color: pink;
+            border: 1px solid black;
+        }
+
+        div#mydiv {
+            transform: skewX(20deg);
+        } */
+
+        /* div {
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+            border: 1px solid black;
+        }
+
+        div#mydiv {
+            transform: rotateZ(150deg);
+        } */
+
+        /* #p1 {background-color: rgba(255, 0, 0, 0.3);}
+        #p2 {background-color: rgba(0, 255, 0, 0.3);}
+        #p3 {background-color: rgba(0, 0, 255, 0.3);} */
+
+        /* #p1 {background-color: rgba(255, 0, 0); opacity: 0.3;}
+        #p2 {background-color: rgba(0, 255, 0); opacity: 0.3;}
+        #p3 {background-color: rgba(0, 0, 255); opacity: 0.3;} */
+
+        /* #p1 {background-color: hsl(120, 100%, 50%);}
+        #p2 {background-color: hsl(120, 100%, 75%);}
+        #p3 {background-color: hsl(120, 100%, 25%);} */
+
+        /* #rcorners_1 {
+            border-radius: 15px 50px 30px 5px;
+            background: #8AC007;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+
+        #rcorners_2 {
+            border-radius: 15px 50px 30px;
+            background: #8AC007;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+
+        #rcorners_3 {
+            border-radius: 15px 50px;
+            background: #8AC007;
+            background-position: left top;
+            background-repeat: repeat;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        } */
+
+        /* p:hover {
+            visibility: hidden;
+        } */
+
+        .scroll {
+            display: block;
+            border: 1px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 300px;
+            height: 50px;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <p>Example of scroll value</p>
+    <div class="scroll">
+        I am going to keep a lot of content here just to show you how
+        scrollbars works if there is an overflow in an element box.
+        This provides horizontal as well as vertical scrollbars
+    </div>
+
+    <!-- <p>This paragraph should be in a normal way</p> -->
+    <!-- <p style="visibility: hidden;">This paragraph should not be visible</p> -->
+
+    <!-- <div>
+        <p id="rcorners_1">Rounded corner 1</p>
+        <p id="rcorners_2">Rounded corner 2</p>
+        <p id="rcorners_3">Rounded corner 3</p>
+    </div> -->
+
+    <!-- <p style="width: 400px; height: 100px; border: 1px solid red;
+              padding: 5px; margin: 10px;">
+        This paragraph is 400px width and 100px height
+    </p> -->
+
+    <!-- <p style="min-width: 40px; height: 100px; border: 1px solid red;
+    padding: 5px; margin: 10px;">
+        This paragraph is 400px width and max height is 10px
+        This paragraph is 400px width and max height is 10px
+    </p>
+    <br><br><br><br><br>
+    <img src="images/Logo_1.jpg" alt="logo" width="195" height="84"> -->
+    
+    <!-- <div style="position: relative; left: 80px; top: 20px;
+                background-color: yellow;">
+        This div has relative positioning
+    </div>
+
+    <div style="position: absolute; left: 80px; top: 0px;
+                background-color: red;">
+        This div has absolute positioning
+    </div>
+
+    <div style="position: fixed; left: 80px; top: 120px;
+                background-color: yellow;">
+        This div has fixed positioning
+    </div>
+
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br> -->
+
+    <!-- <p style="padding-left: 15px; border: 1px solid black;">
+        This is a paragraph with a specified bottom padding
+    </p>
+
+    <p style="padding-left: 5%; border: 1px solid black;">
+        This is a another paragraph with a specified bottom padding in percent
+    </p> -->
+
+    <!-- <p style="padding: 15px; border: 1px solid black;">
+        All four padding will be 15px
+    </p>
+
+    <p style="padding: 10px 2%; border: 1px solid black;">
+        Top and bottom padding will be 10px;
+        left and right padding will be 2% of the total width o f the document;
+    </p>
+
+    <p style="padding: 10px 2% 10px; border: 1px solid black;">
+        Top padding will be 10px;
+        left and right padding will be 2%  of the total width of the document,
+        bottom padding will be 10px
+    </p>
+
+    <p style="padding: 10px 2% 10px 10px; border: 1px solid black;">
+        Top padding will be 10px;
+        left and right padding will be 2%  of the total width of the document,
+        bottom padding and left padding will be 10px
+    </p> -->
+
+    <!-- <p>Move the mouse over the words to see the cursor change</p>
+
+    <div style="cursor: auto;">Auto</div>
+    <div style="cursor: crosshair;">Crosshair</div>
+    <div style="cursor: default;">Default</div>
+    <div style="cursor: pointer;">Pointer</div>
+    <div style="cursor: move;">Move</div>
+    <div style="cursor: e-resize;">e-resize</div>
+    <div style="cursor: ne-resize;">ne-resize</div>
+    <div style="cursor: nw-resize;">nw-resize</div>
+    <div style="cursor: n-resize;">n-resize</div>
+    <div style="cursor: se-resize;">se-resize</div>
+    <div style="cursor: sw-resize;">sw-resize</div>
+    <div style="cursor: s-resize;">s-resize</div>
+    <div style="cursor: w-resize;">w-resize</div>
+    <div style="cursor: text;">Text</div>
+    <div style="cursor: wait;">Wait</div>
+    <div style="cursor: help;">Help</div> -->
+
+    <!-- <p>RGBA Colors</p>
+    <p id="p1">Green</p>
+    <p id="p2">Normal Green</p>
+    <p id="p3">Dark Green</p> -->
+
+    <!-- <div>This is box 1</div>
+    <p>Rotate Z-axis</p>
+    <div id="mydiv">This is box 2</div> -->
+
+    <!-- <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        Changed font family
+    </p>
+    <p style="font-style: italic;">This is Italics</p>
+    <p style="font-variant: small-caps;">This is Small Caps Example</p>
+    <p style="font-weight: bold;">This is bold</p>
+    <p style="font-size: 30px;">This font size is 30px</p>
+    <p style="font-size: small;">This font size is small</p>
+    <p style="font-size: large;">This font size is large</p>
+    <p style="font: italic small-caps bold 15px georgia;">This shorter way to style fonts</p> -->
+
+    <!-- <p style="color: red;">Paragraph with red color</p>
+    <p style="direction: rtl;">Paragraph right to left</p>
+    <p style="letter-spacing: 5px;">Paragraph with letter spacing 5px</p>
+    <p style="word-spacing: 5px;">Paragraph with word spacing 5px</p>
+    <p style="text-indent: 1cm;">Paragraph with text indent 1cm</p> -->
+
+    <!-- <p style="text-decoration: underline;">This will be underlined</p>
+    <p style="text-decoration: line-through;">This will be striked through</p>
+    <p style="text-decoration: overline;">This will have Overline</p>
+    <p style="text-decoration: blink;">This text will have blinking effect</p> -->
+
+    <!-- <p style="text-transform: capitalize;">This will be capitalize</p>
+    <p style="text-transform: uppercase;">This will be in uppercase</p>
+    <p style="text-transform: lowercase;">This will be in lowercase</p> -->
+
+    <!-- <p style="text-shadow: 6px 4px 8px blue;">This is text with shadow</p> -->
+
+    <!-- <a href="https://www.udemy.com">Clik her for Udemy</a> -->
+
+    <!-- <div style="background-color: green; width: 300px; height: 100px;
+    position: absolute; top: 0px; left: 120px; z-index: 3;">
+    </div>
+
+    <div style="background-color: red; width: 300px; height: 100px;
+    position: absolute; top: 40px; left: 80px; z-index: 1;">
+    </div>
+
+    <div style="background-color: yellow; width: 300px; height: 100px;
+    position: absolute; top: 80px; left: 40px; z-index: 2;">
+    </div> -->
+
+    <!-- Unorder nested list (by default)
+    <ul>
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Soft Drink</li>
+
+        <ul>
+            <li>Coca-Cola</li>
+            <li>Mirinda</li>
+            <li>ThumpsUp</li>
+        </ul>
+    </ul>
+
+    <hr/> Similarly using styling:
+
+    <ul>
+        <li style="list-style-type: square;">1</li>
+        <li style="list-style-type: square;">1</li>
+        <li style="list-style-type: square;">1</li>
+    </ul>
+
+    <ul>
+        <li style="list-style-type: disc;">2</li>
+        <li style="list-style-type: disc;">2</li>
+        <li style="list-style-type: disc;">2</li>
+    </ul>
+
+    <ul>
+        <li style="list-style-type: circle;">3</li>
+        <li style="list-style-type: circle;">3</li>
+        <li style="list-style-type: circle;">3</li>
+    </ul>
+
+    <hr/>
+
+    <ol>
+        <li style="list-style-type: lower-roman;"></li>
+        <li style="list-style-type: lower-roman;"></li>
+        <li style="list-style-type: lower-roman;"></li>
+    </ol>
+    
+    <ol>
+        <li style="list-style-type: upper-roman;"></li>
+        <li style="list-style-type: upper-roman;"></li>
+        <li style="list-style-type: upper-roman;"></li>
+    </ol>
+    
+    <ol>
+        <li style="list-style-type: lower-alpha;"></li>
+        <li style="list-style-type: lower-alpha;"></li>
+        <li style="list-style-type: lower-alpha;"></li>
+    </ol>
+
+    <ol>
+        <li style="list-style-type: upper-alpha;"></li>
+        <li style="list-style-type: upper-alpha;"></li>
+        <li style="list-style-type: upper-alpha;"></li>
+    </ol>
+
+    <hr/>
+    To prepare List in Horizontaly:
+
+    <ul>
+        <li style="float: left; width: 10%;">Physics</li>
+        <li style="float: left; width: 10%;">Chemistry</li>
+        <li style="float: left; width: 10%;">Mathematics</li>
+        <li style="float: left; width: 10%;">Science</li>
+    </ul>
+
+    <br><br><br><br><br>
+
+    To remove Bullets
+    <ul style="list-style: none;">
+        <li style="float: left; width: 10%;">Physics</li>
+        <li style="float: left; width: 10%;">Chemistry</li>
+        <li style="float: left; width: 10%;">Mathematics</li>
+        <li style="float: left; width: 10%;">Science</li>
+    </ul> -->
+
+</body>
+</html>

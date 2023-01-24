@@ -1,0 +1,22 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.project.sourcePaths": [
+        "OpenBootcamp/Java_Backend/1_Curso_De_Java_Basico/Sesion_1"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "Connection_1",
+            "database": "sakila",
+            "username": "Da7474"
+        }
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}

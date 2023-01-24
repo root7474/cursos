@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nqZUU7HhoQWRmRUS0xjDGD/eKbN/LYZLz0+iQUjHtAsyOkFTTPnk4921Y2vUb1hO+Yn2zLs8NS3Zd7kk8Weyog==",
+  "success": true,
+  "projectFilePath": "/home/root7474/Documents/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Declare_And_Define_Arrays/Declare_And_Define_Arrays.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

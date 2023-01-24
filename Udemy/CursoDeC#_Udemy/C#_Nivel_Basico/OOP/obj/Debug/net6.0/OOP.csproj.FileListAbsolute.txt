@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/bin/Debug/net6.0/OOP
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/bin/Debug/net6.0/OOP.deps.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/bin/Debug/net6.0/OOP.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/bin/Debug/net6.0/OOP.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/bin/Debug/net6.0/ref/OOP.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/bin/Debug/net6.0/OOP.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/obj/Debug/net6.0/OOP.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/obj/Debug/net6.0/OOP.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/obj/Debug/net6.0/OOP.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/obj/Debug/net6.0/OOP.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/obj/Debug/net6.0/OOP.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/obj/Debug/net6.0/OOP.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/obj/Debug/net6.0/ref/OOP.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/obj/Debug/net6.0/OOP.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP/obj/Debug/net6.0/OOP.genruntimeconfig.cache

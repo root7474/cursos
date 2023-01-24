@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/bin/Debug/net6.0/Ternary_Operator
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/bin/Debug/net6.0/Ternary_Operator.deps.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/bin/Debug/net6.0/Ternary_Operator.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/bin/Debug/net6.0/Ternary_Operator.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/bin/Debug/net6.0/ref/Ternary_Operator.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/bin/Debug/net6.0/Ternary_Operator.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/obj/Debug/net6.0/Ternary_Operator.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/obj/Debug/net6.0/Ternary_Operator.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/obj/Debug/net6.0/Ternary_Operator.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/obj/Debug/net6.0/Ternary_Operator.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/obj/Debug/net6.0/Ternary_Operator.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/obj/Debug/net6.0/Ternary_Operator.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/obj/Debug/net6.0/ref/Ternary_Operator.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/obj/Debug/net6.0/Ternary_Operator.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/Ternary_Operator/obj/Debug/net6.0/Ternary_Operator.genruntimeconfig.cache

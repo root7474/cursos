@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/bin/Debug/net6.0/OOP_Enumerations
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/bin/Debug/net6.0/OOP_Enumerations.deps.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/bin/Debug/net6.0/OOP_Enumerations.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/bin/Debug/net6.0/OOP_Enumerations.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/bin/Debug/net6.0/ref/OOP_Enumerations.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/bin/Debug/net6.0/OOP_Enumerations.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/obj/Debug/net6.0/OOP_Enumerations.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/obj/Debug/net6.0/OOP_Enumerations.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/obj/Debug/net6.0/OOP_Enumerations.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/obj/Debug/net6.0/OOP_Enumerations.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/obj/Debug/net6.0/OOP_Enumerations.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/obj/Debug/net6.0/OOP_Enumerations.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/obj/Debug/net6.0/ref/OOP_Enumerations.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/obj/Debug/net6.0/OOP_Enumerations.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Enumerations/obj/Debug/net6.0/OOP_Enumerations.genruntimeconfig.cache

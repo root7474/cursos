@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/bin/Debug/net6.0/Estructuras_De_Datos
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/bin/Debug/net6.0/Estructuras_De_Datos.deps.json
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/bin/Debug/net6.0/Estructuras_De_Datos.runtimeconfig.json
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/bin/Debug/net6.0/Estructuras_De_Datos.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/bin/Debug/net6.0/ref/Estructuras_De_Datos.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/bin/Debug/net6.0/Estructuras_De_Datos.pdb
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/obj/Debug/net6.0/Estructuras_De_Datos.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/obj/Debug/net6.0/Estructuras_De_Datos.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/obj/Debug/net6.0/Estructuras_De_Datos.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/obj/Debug/net6.0/Estructuras_De_Datos.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/obj/Debug/net6.0/Estructuras_De_Datos.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/obj/Debug/net6.0/Estructuras_De_Datos.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/obj/Debug/net6.0/ref/Estructuras_De_Datos.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/obj/Debug/net6.0/Estructuras_De_Datos.pdb
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Estructuras_De_Datos/obj/Debug/net6.0/Estructuras_De_Datos.genruntimeconfig.cache

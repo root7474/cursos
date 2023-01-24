@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/bin/Debug/net6.0/OOP_Inheritance
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/bin/Debug/net6.0/OOP_Inheritance.deps.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/bin/Debug/net6.0/OOP_Inheritance.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/bin/Debug/net6.0/OOP_Inheritance.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/bin/Debug/net6.0/ref/OOP_Inheritance.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/bin/Debug/net6.0/OOP_Inheritance.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/obj/Debug/net6.0/OOP_Inheritance.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/obj/Debug/net6.0/OOP_Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/obj/Debug/net6.0/OOP_Inheritance.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/obj/Debug/net6.0/OOP_Inheritance.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/obj/Debug/net6.0/OOP_Inheritance.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/obj/Debug/net6.0/OOP_Inheritance.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/obj/Debug/net6.0/ref/OOP_Inheritance.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/obj/Debug/net6.0/OOP_Inheritance.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Inheritance/obj/Debug/net6.0/OOP_Inheritance.genruntimeconfig.cache

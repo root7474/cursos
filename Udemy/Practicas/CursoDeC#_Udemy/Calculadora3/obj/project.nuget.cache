@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XX8RCCDWNX7UYpisNFpq3pGahqv8vvkjs0FuoHChpl3kQt0gD17TFv6dteS+f1nxceXxehjqvFiiwI/FbjLkkg==",
+  "success": true,
+  "projectFilePath": "/home/root7474/Documents/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Calculadora3/Calculadora3.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

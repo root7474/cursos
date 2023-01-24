@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yp8kpAYQrhvIrbBkEziXXGV7XusTuaMERdcvIMir2V7tSRwLSUNw2sgGnghZ4bgyy5CihvvpZ8xBOBDKeR1oww==",
+  "success": true,
+  "projectFilePath": "/home/root7474/Documents/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_De_C#/Cadenas_Y_Arrays_1/Cadenas_Y_Arrays_1.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

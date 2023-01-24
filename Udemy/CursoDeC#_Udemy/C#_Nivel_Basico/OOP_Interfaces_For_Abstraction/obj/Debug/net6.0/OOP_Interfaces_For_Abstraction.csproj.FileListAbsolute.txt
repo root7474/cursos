@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/bin/Debug/net6.0/OOP_Interfaces_For_Abstraction
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/bin/Debug/net6.0/OOP_Interfaces_For_Abstraction.deps.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/bin/Debug/net6.0/OOP_Interfaces_For_Abstraction.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/bin/Debug/net6.0/OOP_Interfaces_For_Abstraction.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/bin/Debug/net6.0/ref/OOP_Interfaces_For_Abstraction.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/bin/Debug/net6.0/OOP_Interfaces_For_Abstraction.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/obj/Debug/net6.0/OOP_Interfaces_For_Abstraction.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/obj/Debug/net6.0/OOP_Interfaces_For_Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/obj/Debug/net6.0/OOP_Interfaces_For_Abstraction.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/obj/Debug/net6.0/OOP_Interfaces_For_Abstraction.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/obj/Debug/net6.0/OOP_Interfaces_For_Abstraction.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/obj/Debug/net6.0/OOP_Interfaces_For_Abstraction.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/obj/Debug/net6.0/ref/OOP_Interfaces_For_Abstraction.dll
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/obj/Debug/net6.0/OOP_Interfaces_For_Abstraction.pdb
+/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/C#_Nivel_Basico/OOP_Interfaces_For_Abstraction/obj/Debug/net6.0/OOP_Interfaces_For_Abstraction.genruntimeconfig.cache

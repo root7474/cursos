@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/bin/Debug/net6.0/OperadoresRelacionales
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/bin/Debug/net6.0/OperadoresRelacionales.deps.json
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/bin/Debug/net6.0/OperadoresRelacionales.runtimeconfig.json
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/bin/Debug/net6.0/OperadoresRelacionales.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/bin/Debug/net6.0/OperadoresRelacionales.pdb
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/obj/Debug/net6.0/OperadoresRelacionales.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/obj/Debug/net6.0/OperadoresRelacionales.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/obj/Debug/net6.0/OperadoresRelacionales.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/obj/Debug/net6.0/OperadoresRelacionales.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/obj/Debug/net6.0/OperadoresRelacionales.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/obj/Debug/net6.0/OperadoresRelacionales.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/obj/Debug/net6.0/refint/OperadoresRelacionales.dll
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/obj/Debug/net6.0/OperadoresRelacionales.pdb
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/obj/Debug/net6.0/OperadoresRelacionales.genruntimeconfig.cache
+/home/root7474/Documents/Cursos/CursoDeC#_Udemy/C#_Nivel_Basico/OperadoresRelacionales/obj/Debug/net6.0/ref/OperadoresRelacionales.dll
