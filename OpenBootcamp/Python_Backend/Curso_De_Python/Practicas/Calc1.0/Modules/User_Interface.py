@@ -7,7 +7,7 @@ class Interfaz:
         self.operacion = None
         
         self.ventana = ventana
-        self.ventana.title("Calc 1.0 Hola")
+        self.ventana.title("Calc 1.0")
         self.icono = tkinter.PhotoImage(file="/home/root7474/Documents/Cursos/OpenBootcamp/Python_Backend/Curso_De_Python/Practicas/Calc1.0/images/Calculator.png")
         self.ventana.iconphoto(False, self.icono)
         self.ventana.resizable(0, 0)
