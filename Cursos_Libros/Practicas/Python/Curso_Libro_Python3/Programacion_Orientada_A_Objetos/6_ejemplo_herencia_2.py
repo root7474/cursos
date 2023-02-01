@@ -6,9 +6,9 @@ class FichaEmpleado:
         self.__cualificacion = None
         
     def __sueldo(self):
-        return 1000 + self.antigüedad * 25 + self.__cualificacion * 100
+        return(1000 + self.antigüedad * 25 + self.__cualificacion * 100)
     
-    def setCualificacion(self, cualificacion):
+    def setCualificacion(self, cualificacion:int):
         if cualificacion == 1 or cualificacion == 2 or cualificacion == 3 or cualificacion == 4 or cualificacion == 5:
             self.__cualificacion = cualificacion
             
@@ -17,18 +17,18 @@ class FichaEmpleado:
     
     def getSueldo(self):
         return self.__sueldo()
-
+    
 class FichaTecnico(FichaEmpleado):
     def __init__(self):
         super().__init__()
-        self.__estrellas = "*"
+        self.__estrellas = '*'
         
     def incEstrellas(self):
-        self.__estrellas += "*"
-    
+        self.__estrellas += '*'
+        
     def disEstrellas(self):
         if self.__estrellas == "**":
-            self.__estrellas = "*"
+            self.__estrellas = '*'
         if self.__estrellas == "***":
             self.__estrellas = "**"
         if self.__estrellas == "****":
@@ -40,56 +40,60 @@ class FichaTecnico(FichaEmpleado):
         return self.__estrellas
     
 class FichaComercial(FichaEmpleado):
-    def __init__(self):
+    def __init__(self, cliente:str):
         super().__init__()
-        self.__cliente_principal = "TecnoWorld2000"
-        self.__num_clientes = None
-    
-    def setCliente(self, cliente:str):
         self.__cliente_principal = cliente
+        self.__num_clientes = None
         
-    def getCliente(self):
+    def setClientes(self, cli:str):
+        self.__cliente_principal = cli
+    
+    def setNumClientes(self, num:int):
+        self.__num_clientes = num
+        
+    def getClientes(self):
         return self.__cliente_principal
     
-    def setNumClientes(self, num_clientes:int):
-        self.__num_clientes = num_clientes
-        
     def getNumClientes(self):
         return self.__num_clientes
     
 def main():
-    c = FichaTecnico()
-    d = FichaComercial()
+    tecnico = FichaTecnico()
+    tecnico.nombre = input("\nDigita el nombre del empleado: ")
+    tecnico.edad = eval(input("Digita su edad: "))
+    tecnico.antigüedad = eval(input(f"Digita la antigüedad de {tecnico.nombre} en la empresa: "))
     
-    c.nombre = input("\nDigita tu nombre: ")
-    c.edad = eval(input("Digita tu edad: "))
-    c.antigüedad = eval(input(f"\n{c.nombre} cuál es tu antigüedad dentro de la empresa?: "))
-    c.setCualificacion(eval(input(f"{c.nombre} cuál es tu cualificación dentro de la empresa?: ")))
+    tecnico.setCualificacion(eval(input(f"Digita su cualificación: ")))
+    print(f"\nEl sueldo de {tecnico.nombre} es de: {tecnico.getSueldo()}"
+          f"\nEl número inicial de estrellas de {tecnico.nombre} es: {tecnico.getEstrellas()}\n")
     
-    print(f"\n{c.nombre} tu sueldo es de: {c.getSueldo()}"
-          f"\nTu número inicial de estrellas es de: {c.getEstrellas()}")
+    cant_estrellas_inc = eval(input("Cuántas estrellas deseas incrementar?: "))
     
-    c.incEstrellas()
-    c.incEstrellas()
-    print(f"{c.nombre} después de dos incrementos tu número inicial de estrellas es de: {c.getEstrellas()}")
+    for i in range(cant_estrellas_inc):
+        i += 1
+        tecnico.incEstrellas()
     
-    d.nombre = input("\nDigita tu nombre: ")
-    d.edad = eval(input("Digita tu edad: "))
-    d.antigüedad = eval(input(f"\n{d.nombre} cuál es tu antigüedad dentro de la empresa?: "))
-    d.setCualificacion(eval(input(f"{d.nombre} cuál es tu cualificación dentro de la empresa?: ")))
+    print(f"Después de {i} incrementos, el número actual de estrellas de {tecnico.nombre} es: {tecnico.getEstrellas()}")
     
-    print(f"\n{d.nombre} tu sueldo es de: {d.getSueldo()}"
-          f"\nTu cliente principal es: {d.getCliente()}")
+    tecnico.disEstrellas()
+    print(f"Tras un decremento el número actual de estrellas de {tecnico.nombre} es: {tecnico.getEstrellas()}\n")
     
-    print(f"\nEmpleado/a: {d.nombre}")
+    comercial = FichaComercial(input("Cliente principal: "))
+    comercial.nombre = input("Digita el nombre del empleado: ")
+    comercial.edad = eval(input("Digita su edad: "))
+    comercial.antigüedad = eval(input(f"Digita la antigüedad de {comercial.nombre} en la empresa: "))
     
-    cliente_principal = input("\nIntroduce el cliente principal: ")
-    d.setCliente(cliente_principal)
-    print(f"{d.nombre} tu cliente principal actual es: {d.getCliente()}")
+    comercial.setCualificacion(eval(input(f"Digita su cualificación: ")))
+    print(f"\nEl sueldo de {comercial.nombre} es de: {comercial.getSueldo()}."
+          f"\nEl cliente principal de {comercial.nombre} es: {comercial.getClientes()}.")
     
-    numero_clientes = eval(input("\nIntroduce el número de clientes: "))
-    d.setNumClientes(numero_clientes)
-    print(f"{d.nombre} tu número de clientes es de: {d.getNumClientes()}\n")
+    print(f"\nEmpleado/a: {comercial.nombre}\n")
+    
+    comercial.setClientes(input("Cliente principal: "))
+    print(f"El cliente principal es: {comercial.getClientes()}\n")
+    
+    comercial.setNumClientes(eval(input("Número de clientes: ")))
+    print(f"El número de clientes es: {comercial.getNumClientes()}\n")
     
 if __name__ == "__main__":
     main()
