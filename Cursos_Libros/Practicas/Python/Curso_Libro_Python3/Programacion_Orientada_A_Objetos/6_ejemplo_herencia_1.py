@@ -4,14 +4,14 @@ class FichaEmpleado:
         self.edad = None
         self.antigüedad = None
         self.__cualificacion = None
-    
+        
     def __sueldo(self):
-        return 1000 + self.antigüedad * 25 + self.__cualificacion * 100
+        return(1000 + self.antigüedad * 25 + self.__cualificacion * 100)
     
     def setCualificacion(self, cualificacion:int):
         if cualificacion == 1 or cualificacion == 2 or cualificacion == 3 or cualificacion == 4 or cualificacion == 5:
             self.__cualificacion = cualificacion
-    
+            
     def getCualificacion(self):
         return self.__cualificacion
     
@@ -21,26 +21,25 @@ class FichaEmpleado:
 class FichaFabricacion(FichaEmpleado):
     def __init__(self, art_mes:float):
         super().__init__()
-        self.__art_mes = art_mes
+        self.__articulos_mes = art_mes
         
     def incArticulos(self, suma:float):
-        self.__art_mes += suma
-
+        self.__articulos_mes += suma
+    
     def getArticulos(self):
-        return self.__art_mes
-    
+        return self.__articulos_mes
+
 def main():
-    b = FichaFabricacion(eval(input("\nDigita la media mensual de artículos manufacturados: ")))
+    fabricacion = FichaFabricacion(eval(input("Digita la media de artículos manufacturados al mes: ")))
+    fabricacion.nombre = input("Digita el nombre del empleado: ")
+    fabricacion.edad = eval(input("Digita su edad: "))
+    fabricacion.antigüedad = eval(input(f"Digita la antigüedad de {fabricacion.nombre} en la empresa: "))
     
-    b.nombre = input("\nDigita tu nombre: ")
-    b.edad = eval(input("Digita tu edad: "))
-    b.antigüedad = eval(input(f"\n{b.nombre} cuantos años llevas en la empresa?: "))
-    b.setCualificacion(eval(input(f"{b.nombre} cuál es tu cualificación dentro de la empresa?: ")))
+    fabricacion.setCualificacion(eval(input(f"Digita su cualificación: ")))
+    print(f"El sueldo de {fabricacion.nombre} es de: {fabricacion.getSueldo()}")
     
-    print(f"{b.nombre} tu sueldo es de: {b.getSueldo()}")
-    
-    b.incArticulos(eval(input("\nDigita la nueva media mensual de artículos manufacturados: ")))
-    print(f"{b.nombre} tu media mensual de artículos manufacturados es de: {b.getArticulos()}\n")
-    
+    fabricacion.incArticulos(eval(input("Incrementa la media de artículos manufacturados al mes: ")))
+    print(f"La media de artículos manufacturados por {fabricacion.nombre} es de: {fabricacion.getArticulos()}")
+
 if __name__ == "__main__":
     main()

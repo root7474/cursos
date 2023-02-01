@@ -31,10 +31,10 @@ class FichaFabricacion(FichaEmpleado):
     
 def main():
     b = FichaFabricacion(27.5)
-    b.nombre = "Laura"
+    b.nombre = "David"
     b.edad = 27
-    b.antiguedad = 3
-    b.setCualificacion(3)
+    b.antiguedad = 4
+    b.setCualificacion(4)
     print(f"El sueldo de {b.nombre} es: {b.getSueldo()}")
     
     b.incArticulos(34.5)
