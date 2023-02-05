@@ -24,17 +24,43 @@ class FichaTecnico(FichaEmpleado):
         self.__estrellas = '*'
         
     def incEstrellas(self):
-        self.__estrellas += '*'
+        opcion = input("\nDeseas incrementar estrellas? (Si, No): ")
         
+        if opcion == "Si":
+            cant_estrellas_inc = eval(input("Cuántas estrellas deseas incrementar?: "))
+            
+            for i in range(cant_estrellas_inc):
+                i += 1
+                if len(self.__estrellas) > 4:
+                    print("Haz superado el límite de estrellas!!!")
+                    self.__estrellas = "*"
+                    break
+                
+                else:
+                    self.__estrellas += "*"
+                    # tecnico.incEstrellas()
+            
+        elif opcion == "No":
+            pass
+                
+        else:
+            print("Opción incorrecta!!!")
+
     def disEstrellas(self):
-        if self.__estrellas == "**":
-            self.__estrellas = '*'
-        if self.__estrellas == "***":
-            self.__estrellas = "**"
-        if self.__estrellas == "****":
-            self.__estrellas = "***"
-        if self.__estrellas == "*****":
-            self.__estrellas = "****"
+        opcion = input("\nDeseas disminuir estrellas? (Si, No): ")
+        
+        if opcion == "Si":
+            if self.__estrellas == "**":
+                self.__estrellas = '*'
+            if self.__estrellas == "***":
+                self.__estrellas = "**"
+            if self.__estrellas == "****":
+                self.__estrellas = "***"
+            if self.__estrellas == "*****":
+                self.__estrellas = "****"
+                
+        if opcion == "No":
+            pass
             
     def getEstrellas(self):
         return self.__estrellas
@@ -65,20 +91,15 @@ def main():
     
     tecnico.setCualificacion(eval(input(f"Digita su cualificación: ")))
     print(f"\nEl sueldo de {tecnico.nombre} es de: {tecnico.getSueldo()}"
-          f"\nEl número inicial de estrellas de {tecnico.nombre} es: {tecnico.getEstrellas()}\n")
+          f"\nEl número inicial de estrellas de {tecnico.nombre} es: {tecnico.getEstrellas()}")
     
-    cant_estrellas_inc = eval(input("Cuántas estrellas deseas incrementar?: "))
-    
-    for i in range(cant_estrellas_inc):
-        i += 1
-        tecnico.incEstrellas()
-    
-    print(f"Después de {i} incrementos, el número actual de estrellas de {tecnico.nombre} es: {tecnico.getEstrellas()}")
+    tecnico.incEstrellas()
+    print(f"\nEl número actual de estrellas de {tecnico.nombre} es: {tecnico.getEstrellas()}")
     
     tecnico.disEstrellas()
-    print(f"Tras un decremento el número actual de estrellas de {tecnico.nombre} es: {tecnico.getEstrellas()}\n")
+    print(f"Tras un decremento el número actual de estrellas de {tecnico.nombre} es: {tecnico.getEstrellas()}")
     
-    comercial = FichaComercial(input("Cliente principal: "))
+    comercial = FichaComercial(input("\nCliente principal: "))
     comercial.nombre = input("Digita el nombre del empleado: ")
     comercial.edad = eval(input("Digita su edad: "))
     comercial.antigüedad = eval(input(f"Digita la antigüedad de {comercial.nombre} en la empresa: "))

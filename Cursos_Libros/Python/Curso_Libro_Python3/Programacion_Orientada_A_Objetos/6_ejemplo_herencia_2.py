@@ -24,7 +24,11 @@ class FichaTecnico(FichaEmpleado):
         self.__estrellas = "*"
         
     def incEstrellas(self):
-        self.__estrellas += "*"
+        if len(self.__estrellas) > 4:
+            print("Haz superado el límite de estrellas!!!")
+            self.__estrellas = "*"
+        else:
+            self.__estrellas += "*"
     
     def disEstrellas(self):
         if self.__estrellas == "**":
@@ -67,12 +71,23 @@ def main():
     print(f"\nEl sueldo de {c.nombre} es: {c.getSueldo()}"
           f"\nEl número de estrellas inicial de {c.nombre} es: {c.getEstrellas()}")
     
-    c.incEstrellas()
-    c.incEstrellas()
-    print(f"\nTras dos incrementos, el número de estrellas inicial de {c.nombre} es: {c.getEstrellas()}")
+    opcion = input("Deseas incrementar estrellas? (Si, No): ")
     
-    c.disEstrellas()    
-    print(f"Tras un decremento, el número de estrellas inicial de {c.nombre} es: {c.getEstrellas()}")
+    if opcion == "Si":
+        c.incEstrellas()
+        print(f"\nTras el incremento, el número de estrellas inicial de {c.nombre} es: {c.getEstrellas()}")
+    elif opcion == "No":
+        pass        
+    else:
+        print("Opción incorrecta!!!")
+        
+    opcion = input("Deseas disminuir estrellas? (Si, No): ")
+    
+    if opcion == "Si":
+        c.disEstrellas()    
+        print(f"Tras el decremento, el número de estrellas inicial de {c.nombre} es: {c.getEstrellas()}")
+    if opcion == "No":
+        pass
 
     d = FichaComercial()
     d.nombre = "Eva"
