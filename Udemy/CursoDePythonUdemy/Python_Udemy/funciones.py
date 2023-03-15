@@ -1,15 +1,19 @@
 def esPar(numero):
     if numero % 2 == 0:
-        # print("El número es par")
+        # print(f"{numero} es par")
         return True
     else:
-        # print("El número es impar")
+        # print(f"{numero} es impar")
         return False
-        
-numero = eval(input("Dime un número y te indicaré si es par o no: "))
-resultado = esPar(numero)
 
-if resultado:
-    print(f"El número {numero} es par")
-else:
-    print(f"El número {numero} es impar")
+def main():
+    numero = int(input("Dime un número y te indicaré si es par o impar: "))
+    resultado = esPar(numero)
+    
+    if resultado:
+        print(f"{numero} es par")
+    else:
+        print(f"{numero} es impar")
+
+if __name__ == "__main__":
+    main()
