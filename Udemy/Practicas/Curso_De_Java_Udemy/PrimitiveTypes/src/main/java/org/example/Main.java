@@ -4,7 +4,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        // Numerics
+        // Integers
         byte myNum1 = 127;
         short myNum2 = 32767;
         int myNum3 = 2147483647;
