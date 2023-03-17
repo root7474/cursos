@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/bin/Debug/net7.0/MySecondApp
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/bin/Debug/net7.0/MySecondApp.deps.json
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/bin/Debug/net7.0/MySecondApp.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/bin/Debug/net7.0/MySecondApp.dll
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/bin/Debug/net7.0/MySecondApp.pdb
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/obj/Debug/net7.0/MySecondApp.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/obj/Debug/net7.0/MySecondApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/obj/Debug/net7.0/MySecondApp.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/obj/Debug/net7.0/MySecondApp.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/obj/Debug/net7.0/MySecondApp.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/obj/Debug/net7.0/MySecondApp.dll
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/obj/Debug/net7.0/refint/MySecondApp.dll
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/obj/Debug/net7.0/MySecondApp.pdb
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/obj/Debug/net7.0/MySecondApp.genruntimeconfig.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/obj/Debug/net7.0/ref/MySecondApp.dll

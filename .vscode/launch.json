@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/OpenBootcamp/C#_Backend/Curso_De_C#/Bucles_1/bin/Debug/net6.0/Bucles_1.dll",
+            "program": "${workspaceFolder}/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/bin/Debug/net7.0/MySecondApp.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/OpenBootcamp/C#_Backend/Curso_De_C#/Bucles_1",
+            "cwd": "${workspaceFolder}/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
