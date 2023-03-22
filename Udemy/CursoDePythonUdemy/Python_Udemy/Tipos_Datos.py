@@ -1,6 +1,3 @@
-from tkinter import Variable
-
-
 print("\nBienvenidos a mi primer programa...\n")
 
 print("Tipo entero: \n", type(23))
@@ -13,7 +10,7 @@ print("Hola, " + "amigos!!!")
 print("Saludo " * 4 + "\n")
 
 """ variable = "Cadena en variable"
-variable = "Sumo esto a " + variaable + "\n"
+variable = "Sumo esto a " + variable + "\n"
 print(variable) """
 
 variable = "Sumo esto a Cadena en variable"

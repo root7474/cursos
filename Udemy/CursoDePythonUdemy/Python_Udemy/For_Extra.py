@@ -10,13 +10,14 @@ for color in lista_colores:
 else:
     print(f"No he encontrado el color '{mi_color}'")
     
-rango_largo = range(1, 10000)
+rango_largo = range(1, 100)
 print(rango_largo)
 
 for numero in rango_largo:
     print(numero)
     
-    if numero == 999999:
+    if numero == 990:
         print(f"Número {numero} encontrado")
+        break
 else:
-    print("Némero no encontrado")
+    print("Número no encontrado")
