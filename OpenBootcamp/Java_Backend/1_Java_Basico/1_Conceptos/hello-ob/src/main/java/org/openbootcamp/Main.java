@@ -1,0 +1,7 @@
+package org.openbootcamp;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello OpenBootcamp!");
+    }
+}
