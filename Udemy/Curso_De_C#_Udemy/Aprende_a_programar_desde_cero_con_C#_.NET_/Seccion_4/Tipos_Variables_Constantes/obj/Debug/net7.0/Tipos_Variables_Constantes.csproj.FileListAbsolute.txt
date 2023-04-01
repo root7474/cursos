@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/bin/Debug/net7.0/Tipos_Variables_Constantes
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/bin/Debug/net7.0/Tipos_Variables_Constantes.deps.json
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/bin/Debug/net7.0/Tipos_Variables_Constantes.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/bin/Debug/net7.0/Tipos_Variables_Constantes.dll
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/bin/Debug/net7.0/Tipos_Variables_Constantes.pdb
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/obj/Debug/net7.0/Tipos_Variables_Constantes.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/obj/Debug/net7.0/Tipos_Variables_Constantes.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/obj/Debug/net7.0/Tipos_Variables_Constantes.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/obj/Debug/net7.0/Tipos_Variables_Constantes.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/obj/Debug/net7.0/Tipos_Variables_Constantes.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/obj/Debug/net7.0/Tipos_Variables_Constantes.dll
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/obj/Debug/net7.0/refint/Tipos_Variables_Constantes.dll
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/obj/Debug/net7.0/Tipos_Variables_Constantes.pdb
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/obj/Debug/net7.0/Tipos_Variables_Constantes.genruntimeconfig.cache
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_4/Tipos_Variables_Constantes/obj/Debug/net7.0/ref/Tipos_Variables_Constantes.dll
