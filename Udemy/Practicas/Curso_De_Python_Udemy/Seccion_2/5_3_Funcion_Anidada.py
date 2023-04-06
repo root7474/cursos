@@ -80,39 +80,28 @@ def menu_usuario(nombre):
                             "\n0.) Salir"
                             "\n\nOpción: "))
             
-            match opcion:
-                case 1:
-                    cantidad = eval(input("Digita una cantidad: "))
-                    print()
-                case 2:
-                    cantidad = eval(input("Digita una cantidad: "))
-                    print()
-                case 3:
-                    cantidad = eval(input("Digita una cantidad: "))
-                    print()
-                case 4:
-                    cantidad = eval(input("Digita una cantidad: "))
-                    print()
-                case 5:
-                    cantidad = 100
-                case 0:
-                    print("Hasta pronto")
-                    break
-                
-            if opcion < 0 or opcion > 5:
+            if opcion == 1 or opcion == 2 or opcion == 3 or opcion == 4:
+                cantidad = eval(input("Digita una cantidad: "))
+                print()
+            elif opcion == 5:
+                cantidad = 100
+            elif opcion == 0:
+                print("Hasta pronto")
+                break
+            else:
                 print("\nError!!!... Opción incorrecta")
                 continue
                 
             calculadora(cantidad, opcion)
         except(SyntaxError, NameError):
-            print("\nError!!!... Por favor ingresa un número")
+            print("\nError!!!... Por favor ingresa solo números")
             
 def main():
     try:
         nombre = input("Bienvenido...\nDigita tu nombre: ")
         menu_usuario(nombre)
-    except EOFError:
-        print()
+    except(EOFError, KeyboardInterrupt):
+        print("\nHasta pronto")
         exit()
         
 if __name__ == "__main__":
