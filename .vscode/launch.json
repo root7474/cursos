@@ -3,6 +3,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FuncionesPrueba",
+            "request": "launch",
+            "mainClass": "org.prueba_funciones_conceptos_java.FuncionesPrueba",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.openbootcamp.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoop",
+            "request": "launch",
+            "mainClass": "org.company.WhileLoop",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ForLoop",
+            "request": "launch",
+            "mainClass": "org.company.ForLoop",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ifElse",
+            "request": "launch",
+            "mainClass": "org.company.ifElse",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Switch",
+            "request": "launch",
+            "mainClass": "org.company.Switch",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.calculadora.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.agro_smart_tech.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "pruebaFunciones",
+            "request": "launch",
+            "mainClass": "org.prueba.pruebaFunciones",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Funciones",
+            "request": "launch",
+            "mainClass": "org.company.Funciones",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.company.Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "org.company.Main2",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
             "name": "pruebaFunciones",
             "request": "launch",
             "mainClass": "org.prueba.pruebaFunciones",

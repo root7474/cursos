@@ -1,9 +1,11 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.project.sourcePaths": [
-        "OpenBootcamp/Java_Backend/Practicas/Agro_Smart_Tech/app/src/main/java",
-        "OpenBootcamp/Java_Backend/1_Java_Basico/1_Conceptos/documentacion/app/src/main/java",
-        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/documentacion/app/src/main/java"
+        "OpenBootcamp/Java_Backend/Practicas/Pruebas/calculadora/app/src/main/java",
+        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/helloWorld/src/main/java",
+        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/documentacion/app/src/main/java",
+        "OpenBootcamp/Java_Backend/1_Java_Basico/1_Conceptos/hello-ob/src/main/java",
+        "OpenBootcamp/Java_Backend/1_Java_Basico/1_Conceptos/documentacion/app/src/main/java"
     ],
     "sqltools.connections": [
         {
