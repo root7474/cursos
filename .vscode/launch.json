@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "company.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Prueba",
+            "request": "launch",
+            "mainClass": "prueba_paquete.Prueba",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "prueba_java.Main",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
             "name": "Funciones",
             "request": "launch",
             "mainClass": "company.Funciones",
