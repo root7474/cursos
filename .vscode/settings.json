@@ -1,7 +1,9 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.project.sourcePaths": [
-        "OpenBootcamp/Java_Backend/1_Java_Basico/1_Conceptos/documentacion/src/main/java/org"
+        "OpenBootcamp/Java_Backend/Practicas/Agro_Smart_Tech/app/src/main/java",
+        "OpenBootcamp/Java_Backend/1_Java_Basico/1_Conceptos/documentacion/app/src/main/java",
+        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/documentacion/app/src/main/java"
     ],
     "sqltools.connections": [
         {
@@ -18,5 +20,6 @@
             "username": "Da7474"
         }
     ],
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.debug.settings.onBuildFailureProceed": true
 }

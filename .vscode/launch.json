@@ -3,6 +3,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pruebaFunciones",
+            "request": "launch",
+            "mainClass": "org.prueba.pruebaFunciones",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Funciones",
+            "request": "launch",
+            "mainClass": "org.company.Funciones",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Prueba",
+            "request": "launch",
+            "mainClass": "org.prueba.Prueba",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.company.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoop",
+            "request": "launch",
+            "mainClass": "company.WhileLoop",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "FuncionesPrueba",
+            "request": "launch",
+            "mainClass": "prueba.FuncionesPrueba",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ForLoop",
+            "request": "launch",
+            "mainClass": "company.ForLoop",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "pruebaFunciones",
+            "request": "launch",
+            "mainClass": "prueba.pruebaFunciones",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "company.Main",
