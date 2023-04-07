@@ -1,4 +1,4 @@
-package org.company;
+package company;
 
 public class ForLoop {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package org.prueba;
+package prueba2;
 
-import org.company.Funciones;
+import company.Funciones;
 
 public class FuncionesPrueba {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.project.sourcePaths": [
-        "OpenBootcamp/Java_Backend/1_Curso_De_Java_Basico/Sesion_1"
+        "OpenBootcamp/Java_Backend/1_Java_Basico/1_Conceptos/documentacion/src/main/java/org"
     ],
     "sqltools.connections": [
         {

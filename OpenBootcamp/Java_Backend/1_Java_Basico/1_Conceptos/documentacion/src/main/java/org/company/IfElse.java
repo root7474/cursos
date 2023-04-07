@@ -1,4 +1,4 @@
-package org.company;
+package company;
 
 public class IfElse {
     public static void main(String[] args) {

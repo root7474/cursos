@@ -2,18 +2,34 @@
     "version": "0.2.0",
     "configurations": [
         {
-            // Use IntelliSense to find out which attributes exist for C# debugging
-            // Use hover for the description of the existing attributes
-            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "type": "java",
+            "name": "Funciones",
+            "request": "launch",
+            "mainClass": "company.Funciones",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "FuncionesPrueba",
+            "request": "launch",
+            "mainClass": "prueba2.FuncionesPrueba",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "FuncionesPrueba",
+            "request": "launch",
+            "mainClass": "org.prueba.FuncionesPrueba",
+            "projectName": ""
+        },
+        {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/bin/Debug/net7.0/MySecondApp.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/",
-            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
         },
