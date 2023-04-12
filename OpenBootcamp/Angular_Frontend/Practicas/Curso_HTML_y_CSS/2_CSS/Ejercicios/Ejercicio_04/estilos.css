@@ -1,0 +1,70 @@
+/* Importamos las fuentes a utilizar desde google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+#titulo, #elemento-1, #elemento-2, #elemento-3, #elemento-4, #elemento-5 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ /* Agregamos un color rojo al primer elemento de cada lista */
+#elemento-1 {
+    color: red;
+}
+
+/* Colocamos un tamaño de fuente de 2rem al primer elemento de la primera lista */
+.lista-compras-productos li#elemento-1 {
+    font-size: 2rem;
+}
+
+/* Agregamos estilos de color, ancho y alto y el radio del borde para cada lista */
+.lista-compras, .lista-supermercados{
+    color: #241F24;
+    width: 364px;
+    height: 240px;
+    border-radius: 16px;
+}
+
+/* Para el caso de la primera lista, agregamos un margen automático */
+.lista-compras {
+    margin: auto auto;
+}
+
+/* En el caso de la segunda lista, agregamos un margen de 20 píxeles hacia arriba y 
+20 px hacia abajo y un margen automático */
+.lista-supermercados {
+    margin: 20px auto;
+}
+
+/* Agregamos un margen y un borde solido de tamaño de 2 píxeles para cada lista */
+.encabezado, .lista-compras-productos, .lista-supermercados-nombres {
+    margin: 0px;
+    border: 2px solid;
+}
+
+/* Agregamos los estilos correspondientes al encabezado de cada lista */
+.encabezado {
+    padding: center center;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    background-color: #8D99AE;
+    width: 361px;
+    text-align: center;
+}
+
+/* Agregamos el radio para la parte de abajo de las lista, la margen interna y el tamaño de cada lista */
+.lista-compras-productos, .lista-supermercados-nombres {
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding: 25px 32px;
+    width: 296.8px;
+    height: 142px;
+}
+
+/* Agregamos los caolores correspondientes de cada lista */
+.lista-compras-productos {
+    background-color: #EFC69B;
+}
+
+.lista-supermercados-nombres {
+    background-color: #CD7155;
+}
