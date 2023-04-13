@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PolimorfismoMain",
+            "request": "launch",
+            "mainClass": "org.Poo.PolimorfismoMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "CocheMain",
+            "request": "launch",
+            "mainClass": "org.Poo.CocheMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
             "name": "FuncionesPrueba",
             "request": "launch",
             "mainClass": "org.prueba_funciones_conceptos_java.FuncionesPrueba",
