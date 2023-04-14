@@ -1,9 +1,14 @@
 package org.calculadora;
-import org.calculadora.Calculadora;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String saludo = Calculadora.holaNombre("David");
-        System.out.println(saludo);
+        Scanner nombreScanner = new Scanner(System.in);
+        System.out.print("Bienvenido!!!... Digita tu nombre: ");
+        String nombre = nombreScanner.nextLine();
+
+        OperacionesCalculos operacionesCalculos = new OperacionesCalculos(nombre);
+        operacionesCalculos.menu();
     }
 }

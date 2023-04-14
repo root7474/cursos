@@ -3,7 +3,8 @@
     "java.project.sourcePaths": [
         "OpenBootcamp/Java_Backend/1_Java_Basico/1_Conceptos/tipos/app/src/main/java",
         "OpenBootcamp/Java_Backend/1_Java_Basico/1_Conceptos/java_poo/app/src/main/java",
-        "OpenBootcamp/Java_Backend/1_Java_Basico/1_Conceptos/arrays/app/src/main/java"
+        "OpenBootcamp/Java_Backend/1_Java_Basico/1_Conceptos/arrays/app/src/main/java",
+        "OpenBootcamp/Java_Backend/Practicas/Pruebas/calculadora/app/src/main/java"
     ],
     "sqltools.connections": [
         {
