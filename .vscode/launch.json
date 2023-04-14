@@ -3,6 +3,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ScannerMain",
+            "request": "launch",
+            "mainClass": "org.arrays.ScannerMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ThrowMain",
+            "request": "launch",
+            "mainClass": "org.arrays.ThrowMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "TryCatchMain",
+            "request": "launch",
+            "mainClass": "org.arrays.TryCatchMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "MapMain",
+            "request": "launch",
+            "mainClass": "org.arrays.MapMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "LisatasMain",
+            "request": "launch",
+            "mainClass": "org.arrays.LisatasMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.arrays.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "StringMain",
+            "request": "launch",
+            "mainClass": "org.tipos.StringMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "InterfacesMain",
+            "request": "launch",
+            "mainClass": "org.java_poo.interfaces.InterfacesMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "PolimorfismoMain",
+            "request": "launch",
+            "mainClass": "org.java_poo.PolimorfismoMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "CocheMain",
+            "request": "launch",
+            "mainClass": "org.java_poo.CocheMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
             "name": "PolimorfismoMain",
             "request": "launch",
             "mainClass": "org.Poo.PolimorfismoMain",
