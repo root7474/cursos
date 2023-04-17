@@ -9,7 +9,7 @@ listaCompras.push("Aceite de Girasol");
 console.log(listaCompras);
 
 // Eliminamos el producto que hemos agregado
-listaCompras.pop("Aceite girasol")
+listaCompras.pop()
 console.log(listaCompras);
 
 // Creamos una segunda lista con 3 películas favoritas (objetos con propiedades: titulo, director, fecha)
