@@ -2,6 +2,8 @@ package org.calculadora;
 
 import java.util.Scanner;
 
+import javax.lang.model.type.NullType;
+
 public class Operaciones {
     String nombre;
     Double numero;
@@ -56,13 +58,12 @@ public class Operaciones {
                 } else if (opcion == 4) {
                     System.out.print("\nDigita una cantidad a dividir: ");
                     cantidad = Integer.parseInt(cantidadScanner.next());
-                    /* calcularDivision.division(cantidad);
-                    System.out.println(calcularDivision); */
 
                     try {
                         calcularDivision.division(cantidad);
                         System.out.println(calcularDivision);
-                    } catch (DivisionFormatError e) {
+                    } catch (ArithmeticException e) {
+                        // TODO Auto-generated catch block
                         e.printStackTrace();
                     }
                 } else if (opcion == 5) {
@@ -77,8 +78,8 @@ public class Operaciones {
                     System.out.println("Error!!!... Opción desconcocida");
                 }
             } catch (NumberFormatException e) {
-                System.out.println("Error!!!... No debes ingresar letras o signos como #, ',', '.' o $. Solamente números");
-                opcionScanner.nextLine();
+                System.out.println("Error: Solo debe ingresar números");
+                continue;
             }
         }
     }

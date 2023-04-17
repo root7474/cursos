@@ -1,7 +1,5 @@
 package org.calculadora;
 
-import javax.lang.model.type.NullType;
-
 public class DivisionClass extends Operaciones {
     Double division = null;
 
@@ -9,7 +7,7 @@ public class DivisionClass extends Operaciones {
         super(nombre);
     }
 
-    public void division(int cantidad) throws DivisionFormatError {
+    public void division(int cantidad) {
         cantidad = cantidad;
 
         for (int i = 0; i < cantidad; i++) {
@@ -20,7 +18,7 @@ public class DivisionClass extends Operaciones {
             if (division == null) {
                 division = numero;
             } else {
-                if (numero == 0) throw new DivisionFormatError("Error!!!... Division entre cero");
+                if (numero == 0) throw new ArithmeticException("Error!!!... Division entre cero");
                 division = division / numero;
             }
         }
