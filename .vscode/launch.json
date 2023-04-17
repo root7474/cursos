@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CeroDividirMain",
+            "request": "launch",
+            "mainClass": "org.calculadora.CeroDividirMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
             "name": "ScannerMain",
             "request": "launch",
             "mainClass": "org.arrays.ScannerMain",
