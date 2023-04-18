@@ -57,9 +57,9 @@ namespace Strcuture_Programing_Example {
                     case 0:
                         // Salir
                         // Esto se ejecutará después de ingresar la opción "0"
-                        Console.WriteLine("\nHas elegido la opción \"0.) Salir.\"." +
+                        Console.WriteLine($"\nHas elegido la opción \"{operation}.) Salir.\"" +
                                         "\nHasta pronto...");
-                        Console.Write("\nPreciona cualquier tecla para continuar "); // Le pedimos al usuario que presione cualquier tecla para continuar
+                        Console.Write("\nPreciona cualquier tecla para salir "); // Le pedimos al usuario que presione cualquier tecla para continuar
                         Console.ReadKey();
                         
                         isExit = true; // Rompemos el ciclo enviándole un valor de "false" a la variable "isExit"
