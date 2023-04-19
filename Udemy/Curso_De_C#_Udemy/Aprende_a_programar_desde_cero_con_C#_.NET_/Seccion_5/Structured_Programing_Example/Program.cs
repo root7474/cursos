@@ -67,6 +67,8 @@ namespace Strcuture_Programing_Example {
 
                     default:
                         Console.WriteLine("\nLa opción seleecionada no existe"); // Esto se ejecutará si la opción ingresada por el usuario es incorrecta
+                        Console.Write("\nPreciona cualquier tecla para continuar "); // Le pedimos al usuario que presione cualquier tecla para continuar
+                        Console.ReadKey();
                         break;
                 }
 
@@ -82,7 +84,7 @@ namespace Strcuture_Programing_Example {
             int data = 0;
             bool isDataValid = false;
 
-            while (!isDataValid)
+            while (isDataValid == false)
             {
                 Console.Write(message);
                 userData = Console.ReadLine(); // El usuario deberá ingresar un número
@@ -108,7 +110,7 @@ namespace Strcuture_Programing_Example {
             Double data = 0;
             bool isDataValid = false;
 
-            while (!isDataValid)
+            while (isDataValid == false)
             {
                 Console.Write(message);
                 userData = Console.ReadLine();
