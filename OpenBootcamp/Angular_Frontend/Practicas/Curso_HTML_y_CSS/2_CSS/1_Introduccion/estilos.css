@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+}
+
+/* Estoy probando colores */
+p {
+    color: blue;
+    font-size: 50pt;
+}
+
+/* Selectores ID */
+#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    color: darkmagenta;
+    font-size: 10pt;
+}
+
+/* Selectores de clases */
+.encabezado {
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+*.warning {
+    color: red;
+}
+
+/* Estilos para varios selectores */
+.autor, .fecha, .ubicacion, h1, #segunda-noticia {
+    text-decoration: underline;
+}
