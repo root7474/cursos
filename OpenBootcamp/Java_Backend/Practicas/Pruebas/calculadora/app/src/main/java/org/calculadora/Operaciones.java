@@ -7,7 +7,7 @@ import javax.lang.model.type.NullType;
 public class Operaciones {
     String nombre;
     Double numero;
-    boolean pass = true;
+    boolean pass = false;
     int opcion;
     int cantidad;
 
@@ -28,7 +28,7 @@ public class Operaciones {
         DivisionClass calcularDivision = new DivisionClass(nombre);
         PorcentajeClass calcularPorcentaje = new PorcentajeClass(nombre);
 
-        while (pass) {
+        while (pass == false) {
             System.out.print("\n" + nombre + " Elige una opción:\n" +
                              "\n1.) Suma." +
                              "\n2.) Resta." +
@@ -37,6 +37,7 @@ public class Operaciones {
                              "\n5.) Porcentaje." +
                              "\n0.) Salir." +
                              "\n\nOpción: ");
+
             try {
                 opcion = Integer.parseInt(opcionScanner.next());
 
@@ -73,7 +74,7 @@ public class Operaciones {
                     System.out.println(calcularPorcentaje);
                 } else if (opcion == 0) {
                     System.out.println("Hasta pronto...");
-                    break;
+                    pass = true;
                 } else {
                     System.out.println("Error!!!... Opción desconcocida");
                 }
