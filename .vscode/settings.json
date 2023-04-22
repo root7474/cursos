@@ -8,10 +8,15 @@
         "OpenBootcamp/Java_Backend/Practicas/Pruebas/calculadora/app/src/main/java"
 =======
         "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/try_catch_throw_throws_practica/app/src/main/java",
+        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/scanner_practica/app/src/main/java",
         "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/listas_y_mapas/app/src/main/java",
+<<<<<<< HEAD
         "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/arrays/app/src/main/java",
         "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/scanner_practica/app/src/main/java"
 >>>>>>> 8ceeabf0f5828305512b85dc67dbb50d5ab838f6
+=======
+        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/arrays/app/src/main/java"
+>>>>>>> 0ba3a38 (Actualizo archivo settings.json)
     ],
     "sqltools.connections": [
         {
