@@ -24,13 +24,13 @@ public class Operaciones {
 
         while (pass == false) {
             integerError("\n" + nombre + " Elige una opción:\n" +
-                             "\n1.) Suma." +
-                             "\n2.) Resta." +
-                             "\n3.) Multiplicación." +
-                             "\n4.) División." +
-                             "\n5.) Porcentaje." +
-                             "\n0.) Salir." +
-                             "\n\nOpción: ");
+                         "\n1.) Suma." +
+                         "\n2.) Resta." +
+                         "\n3.) Multiplicación." +
+                         "\n4.) División." +
+                         "\n5.) Porcentaje." +
+                         "\n0.) Salir." +
+                         "\n\nOpción: ");
             
             if (userDataInt == 1) {
                 integerError("\nDigita una cantidad a sumar: ");
