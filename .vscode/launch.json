@@ -3,6 +3,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SacnnerMain",
+            "request": "launch",
+            "mainClass": "org.scanner_practica.SacnnerMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ThrowMain",
+            "request": "launch",
+            "mainClass": "org.try_catch_throw_throws_practica.ThrowMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "TryCatchMain",
+            "request": "launch",
+            "mainClass": "org.try_catch_throw_throws_practica.TryCatchMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "MapMain",
+            "request": "launch",
+            "mainClass": "org.listas_y_mapas_practica.MapMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ListasMain",
+            "request": "launch",
+            "mainClass": "org.listas_y_mapas_practica.ListasMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ArraysMain",
+            "request": "launch",
+            "mainClass": "org.arrays_practica.ArraysMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "StringMain",
+            "request": "launch",
+            "mainClass": "org.tipos_practica.StringMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "InterfacesMain",
+            "request": "launch",
+            "mainClass": "org.java_poo_practica.interfaces.InterfacesMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "CocheMain",
+            "request": "launch",
+            "mainClass": "org.java_poo.CocheMain",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "CeroDividirMain",
             "request": "launch",
             "mainClass": "org.calculadora.CeroDividirMain",
