@@ -1,31 +1,41 @@
 package org.calculadora;
 
+import java.util.Scanner;
+
 public class DivisionClass extends Operaciones {
-    Double division = null;
+    String resultado;
 
     public DivisionClass (String nombre) {
         super(nombre);
     }
 
     public void division(int cantidad) {
-        cantidad = cantidad;
+        Double numero;
+        Double division = null;
+        Scanner numeroScanner = new Scanner(System.in);
 
-        for (int i = 0; i < cantidad; i++) {
-            System.out.print("Digita el número " + (i + 1) + ": ");
-            numero = Double.parseDouble(numeroScanner.next());
-            
-            
-            if (division == null) {
-                division = numero;
-            } else {
-                if (numero == 0) throw new ArithmeticException("Error!!!... Division entre cero");
-                division = division / numero;
+        try {
+            for (int i = 0; i < cantidad; i++) {
+                System.out.print("Digita el número " + (i + 1) + ": ");
+                numero = Double.parseDouble(numeroScanner.next());
+                
+                
+                if (division == null) {
+                    division = numero;
+                } else {
+                    if (numero == 0) throw new ArithmeticException("Error!!!... Division entre cero");
+                    division = division / numero;
+                }
             }
+
+            resultado = "\nEl resultado de la división es: " + division;
+        } catch (NumberFormatException e) {
+            resultado = "Error!!!... Solo debes ingresar números";
         }
     }
 
     @Override
     public String toString() {
-        return "\nEl resultado de la división es: " + this.division;
+        return resultado;
     }
 }
