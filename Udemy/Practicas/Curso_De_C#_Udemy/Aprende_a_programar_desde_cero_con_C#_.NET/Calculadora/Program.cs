@@ -208,7 +208,7 @@ namespace Calculadora
                 
                 if (!int.TryParse(userDataString, out userDataInt)) // Hacemos una conversión de "userDataString" a enteros y la guardamos dentro de "userDataInt"
                 {
-                    Console.WriteLine("Error!!!... Solo debes ingresar números enteros\n"); // imprimimos un mensaje de error si el valor ingresado no es un entero
+                    Console.WriteLine("Error!!!... No debes ingresar números decimales, letras o símbolos especiales"); // imprimimos un mensaje de error si el valor ingresado no es un entero
                 } else
                 {
                     isDataValid = true; // Si el número ingresado es un entero, se rompe el ciclo y el programa continúa con su ejecución
