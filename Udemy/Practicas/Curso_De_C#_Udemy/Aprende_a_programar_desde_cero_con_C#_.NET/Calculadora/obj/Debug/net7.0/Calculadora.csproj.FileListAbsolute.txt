@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/bin/Debug/net7.0/Calculadora
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/bin/Debug/net7.0/Calculadora.deps.json
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/bin/Debug/net7.0/Calculadora.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/bin/Debug/net7.0/Calculadora.dll
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/bin/Debug/net7.0/Calculadora.pdb
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/obj/Debug/net7.0/Calculadora.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/obj/Debug/net7.0/Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/obj/Debug/net7.0/Calculadora.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/obj/Debug/net7.0/Calculadora.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/obj/Debug/net7.0/Calculadora.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/obj/Debug/net7.0/Calculadora.dll
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/obj/Debug/net7.0/refint/Calculadora.dll
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/obj/Debug/net7.0/Calculadora.pdb
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/obj/Debug/net7.0/Calculadora.genruntimeconfig.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Calculadora/obj/Debug/net7.0/ref/Calculadora.dll
