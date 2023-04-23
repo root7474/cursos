@@ -12,24 +12,37 @@ public class SumaClass extends Operaciones {
     public void suma(int cantidad) {
         Double suma = null;
         Double numero;
-        Scanner numeroScanner = new Scanner(System.in);
-
-        try {
-            for (int i = 0; i < cantidad; i++) {
-                System.out.print("Digita el número " + (i + 1) + ": ");
-                numero = Double.parseDouble(numeroScanner.next());
         
-                if (suma == null) {
-                    suma = numero;
-                } else {
-                    suma = suma + numero;
-                }
+        for (int i = 0; i < cantidad; i++) {
+            numero = doubleSumaError("Digita el número " + (i + 1) + ": ");
+
+            if (suma == null) {
+                suma = numero;
+            } else {
+                suma = suma + numero;
             }
+        }
 
             resultado = "\nEl resultado de la suma es: " + suma;
-        } catch (NumberFormatException e) {
-            resultado = "Error!!!... Solo debes ingresar números";
+    }
+
+    public static Double doubleSumaError(String message) {
+        boolean pass = false;
+        Double userDataDouble = 0.0;
+        Scanner userDataScanner = new Scanner(System.in);
+        
+        while (pass == false) {
+            System.out.print(message);
+
+            try {
+                userDataDouble = Double.parseDouble(userDataScanner.next());
+                pass = true;
+            } catch (NumberFormatException e) {
+                System.out.println("Error!!!... Solo debes ingresar números");
+            }
         }
+
+        return userDataDouble;
     }
 
     @Override

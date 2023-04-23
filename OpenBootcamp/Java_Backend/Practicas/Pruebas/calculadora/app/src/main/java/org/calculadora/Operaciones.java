@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Operaciones {
     String nombre;
-    Integer userDataInt;
-    Scanner opcionScanner = new Scanner(System.in);
-    Scanner cantidadScanner = new Scanner(System.in);
     
     public Operaciones(String nombre) {
         this.nombre = nombre;
@@ -15,6 +12,7 @@ public class Operaciones {
     // Menú de opciones
     public void menu() {
         boolean pass = false;
+        Integer cantidad;
 
         SumaClass calcularSuma = new SumaClass(nombre);
         RestaClass calcularResta = new RestaClass(nombre);
@@ -23,32 +21,32 @@ public class Operaciones {
         PorcentajeClass calcularPorcentaje = new PorcentajeClass(nombre);
 
         while (pass == false) {
-            integerError("\n" + nombre + " Elige una opción:\n" +
-                         "\n1.) Suma." +
-                         "\n2.) Resta." +
-                         "\n3.) Multiplicación." +
-                         "\n4.) División." +
-                         "\n5.) Porcentaje." +
-                         "\n0.) Salir." +
-                         "\n\nOpción: ");
+            Integer userDataInt = integerError("\n" + nombre + " Elige una opción:\n" +
+                                               "\n1.) Suma." +
+                                               "\n2.) Resta." +
+                                               "\n3.) Multiplicación." +
+                                               "\n4.) División." +
+                                               "\n5.) Porcentaje." +
+                                               "\n0.) Salir." +
+                                               "\n\nOpción: ");
             
             if (userDataInt == 1) {
-                integerError("\nDigita una cantidad a sumar: ");
-                calcularSuma.suma(userDataInt);
+                cantidad = integerError("\nDigita una cantidad a sumar: ");
+                calcularSuma.suma(cantidad);
                 System.out.println(calcularSuma);
             } else if (userDataInt == 2) {
-                integerError("\nDigita una cantidad a restar: ");
-                calcularResta.resta(userDataInt);
+                cantidad = integerError("\nDigita una cantidad a restar: ");
+                calcularResta.resta(cantidad);
                 System.out.println(calcularResta);
             } else if (userDataInt == 3) {
-                integerError("\nDigita una cantidad a multplicar: ");
-                calcularMultiplicaion.multiplicacion(userDataInt);
+                cantidad = integerError("\nDigita una cantidad a multplicar: ");
+                calcularMultiplicaion.multiplicacion(cantidad);
                 System.out.println(calcularMultiplicaion);
             } else if (userDataInt == 4) {
-                integerError("\nDigita una cantidad a dividir: ");
+                cantidad = integerError("\nDigita una cantidad a dividir: ");
 
                 try {
-                    calcularDivision.division(userDataInt);
+                    calcularDivision.division(cantidad);
                     System.out.println(calcularDivision);
                 } catch (ArithmeticException e) {
                     e.printStackTrace();
@@ -65,9 +63,11 @@ public class Operaciones {
         }
     }
 
-    private void integerError(String message) {
+    public Integer integerError(String message) {
         boolean pass = false;
-        
+        Integer userDataInt = 0;
+        Scanner opcionScanner = new Scanner(System.in);
+
         while (pass == false) {
             try {
                 System.out.print(message);
@@ -77,5 +77,7 @@ public class Operaciones {
                 System.out.println("Error!!!... No debes ingresar números decimales ni tampocos letras o símbolos especiales");
             }
         }
+
+        return userDataInt;
     }
 }

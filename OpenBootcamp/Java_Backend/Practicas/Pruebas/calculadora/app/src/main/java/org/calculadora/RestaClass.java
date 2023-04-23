@@ -12,24 +12,37 @@ public class RestaClass extends Operaciones {
     public void resta(int cantidad) {
         Double resta = null;
         Double numero;
-        Scanner numeroScanner = new Scanner(System.in);
 
-        try {
-            for (int i = 0; i < cantidad; i++) {
-                System.out.print("Digita el número " + (i + 1) + ": ");
-                numero = Double.parseDouble(numeroScanner.next());
+        for (int i = 0; i < cantidad; i++) {
+            numero = doubleSumaError("Digita el número " + (i + 1) + ": ");
 
-                if (resta == null) {
-                    resta = numero;
-                } else {
-                    resta = resta - numero;
-                }
+            if (resta == null) {
+                resta = numero;
+            } else {
+                resta = resta - numero;
             }
-
-            resultado = "\nEl resultado de la resta es: " + resta;
-        } catch (NumberFormatException e) {
-            resultado = "Error!!!... Solo debes ingresar números";
         }
+
+        resultado = "\nEl resultado de la resta es: " + resta;
+    }
+
+    public static Double doubleSumaError(String message) {
+        boolean pass = false;
+        Double userDataDouble = 0.0;
+        Scanner userDataScanner = new Scanner(System.in);
+        
+        while (pass == false) {
+            System.out.print(message);
+
+            try {
+                userDataDouble = Double.parseDouble(userDataScanner.next());
+                pass = true;
+            } catch (NumberFormatException e) {
+                System.out.println("Error!!!... Solo debes ingresar números");
+            }
+        }
+
+        return userDataDouble;
     }
 
     @Override

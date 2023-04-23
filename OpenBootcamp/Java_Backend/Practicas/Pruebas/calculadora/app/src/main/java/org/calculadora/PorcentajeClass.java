@@ -11,17 +11,29 @@ public class PorcentajeClass extends Operaciones {
 
     public void porcentaje() {
         Double porcentaje;
+        Double numero = doubleSumaError("\nDigita un número para calcular su porcentaje: ");
+        
+        porcentaje = numero / 100;
+        resultado = "\nEl porcentaje de " + numero + " es: " + porcentaje;
+    }
 
-        try {
-            System.out.print("\nDigita un número para calcular su porcentaje: ");
-            Scanner numeroScanner = new Scanner(System.in);
-            Double numero = Double.parseDouble(numeroScanner.next());
-            
-            porcentaje = numero / 100;
-            resultado = "\nEl porcentaje de " + numero + " es: " + porcentaje;
-        } catch (NumberFormatException e) {
-            resultado = "Error!!!... Solo debes ingresar números";
+    public static Double doubleSumaError(String message) {
+        boolean pass = false;
+        Double userDataDouble = 0.0;
+        Scanner userDataScanner = new Scanner(System.in);
+        
+        while (pass == false) {
+            System.out.print(message);
+
+            try {
+                userDataDouble = Double.parseDouble(userDataScanner.next());
+                pass = true;
+            } catch (NumberFormatException e) {
+                System.out.println("Error!!!... Solo debes ingresar números");
+            }
         }
+
+        return userDataDouble;
     }
 
     @Override
