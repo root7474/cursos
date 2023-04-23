@@ -40,29 +40,25 @@ namespace Calculadora
                 {
                     // Si la opción digitada es igual a 1, volvemos a llamar a la función errorInt
                     // Le pasamos como parámetro un mensaje pidiendo que se ingrese una cantidad a sumar
-                    cantidad = errorInt($"Has elegido la opción \"{opcion}.) Suma.\"" +
-                                        "\n\nDigita una cantidad a sumar: ");
+                    cantidad = errorInt("Digita una cantidad a sumar: ");
                     Console.WriteLine(suma(cantidad)); // Enviamos la cantidad digitada a la función "suma()"
                 } else if (opcion == 2)
                 {
                     // Si la opción digitada es igual a 2, volvemos a llamar a la función errorInt
                     // Le pasamos como parámetro un mensaje pidiendo que se ingrese una cantidad a restar
-                    cantidad = errorInt($"Has elegido la opción \"{opcion}.) Resta.\"" +
-                                        "\n\nDigita una cantidad a restar: ");
+                    cantidad = errorInt("Digita una cantidad a restar: ");
                     Console.WriteLine(resta(cantidad)); // Enviamos la cantidad digitada a la función "resta()"
                 } else if (opcion == 3)
                 {
                     // Si la opción digitada es igual a 3, volvemos a llamar a la función errorInt
                     // Le pasamos como parámetro un mensaje pidiendo que se ingrese una cantidad a multiplicar
-                    cantidad = errorInt($"Has elegido la opción \"{opcion}.) Multiplicación.\"" +
-                                        "\n\nDigita una cantidad a multiplicar: ");
+                    cantidad = errorInt("Digita una cantidad a multiplicar: ");
                     Console.WriteLine(multiplicación(cantidad)); // Enviamos la cantidad digitada a la función "multiplicacion()"
                 } else if (opcion == 4)
                 {
                     // Si la opción digitada es igual a 4, volvemos a llamar a la función errorInt
                     // Le pasamos como parámetro un mensaje pidiendo que se ingrese una cantidad a dividir
-                    cantidad = errorInt($"Has elegido la opción \"{opcion}.) División.\"" +
-                                        "\n\nDigita una cantidad a dividir: ");
+                    cantidad = errorInt("Digita una cantidad a dividir: ");
 
                     try
                     {
@@ -74,7 +70,6 @@ namespace Calculadora
                 } else if (opcion == 5)
                 {
                     // Si la opción digitada es igual a 5, solamente llamamos a la función "porcentaje()"
-                    Console.WriteLine($"\nHas elegido la opción \"{opcion}.) Calcular el porcentaje de un número.\""); 
                     Console.WriteLine(porcentaje());
                 } else if (opcion == 0)
                 {
@@ -180,7 +175,7 @@ namespace Calculadora
                 }
             }
             
-            return $"\nEl resultado de la division es: {Double.Round((Double)division!, 4)}"; // Retornamos el valor de la división redondeada a 4 decimales
+            return $"\nEl resultado de la division es: {Double.Round((Double)division!, 2)}"; // Retornamos el valor de la división redondeada a 4 decimales
         }
 
         // Creamos una función "porcentaje()" sin ningún parámetro
@@ -213,7 +208,7 @@ namespace Calculadora
                 
                 if (!int.TryParse(userDataString, out userDataInt)) // Hacemos una conversión de "userDataString" a enteros y la guardamos dentro de "userDataInt"
                 {
-                    Console.WriteLine("Error!!!... Solo debes ingresar números enteros"); // imprimimos un mensaje de error si el valor ingresado no es un entero
+                    Console.WriteLine("Error!!!... Solo debes ingresar números enteros\n"); // imprimimos un mensaje de error si el valor ingresado no es un entero
                 } else
                 {
                     isDataValid = true; // Si el número ingresado es un entero, se rompe el ciclo y el programa continúa con su ejecución
@@ -238,7 +233,7 @@ namespace Calculadora
 
                 if (!Double.TryParse(userDataString, out userDataDouble))
                 {
-                    Console.WriteLine("Error!!!... Solo debes ingresar números\n");
+                    Console.WriteLine("Error!!!... Solo debes ingresar números");
                 } else
                 {
                     isDataValid = true;
