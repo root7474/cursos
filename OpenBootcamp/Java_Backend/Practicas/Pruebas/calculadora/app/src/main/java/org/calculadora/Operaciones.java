@@ -49,7 +49,7 @@ public class Operaciones {
                     calcularDivision.division(cantidad);
                     System.out.println(calcularDivision);
                 } catch (ArithmeticException e) {
-                    e.printStackTrace();
+                    System.out.println("Error!!!... Division entre cero");
                 }
             } else if (userDataInt == 5) {
                 calcularPorcentaje.porcentaje();

@@ -19,7 +19,7 @@ public class DivisionClass extends Operaciones {
             if (division == null) {
                 division = numero;
             } else {
-                if (numero == 0) throw new ArithmeticException("Error!!!... Division entre cero");
+                if (numero == 0) throw new ArithmeticException();
                 division = division / numero;
             }
         }
