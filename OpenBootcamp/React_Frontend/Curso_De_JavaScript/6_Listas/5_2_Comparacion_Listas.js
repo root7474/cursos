@@ -25,4 +25,4 @@ const compararArrays = (array_1, array_2) => {
 }
 
 const ar_3 = [1, 2, 3, 9];
-console.log(compararArrays(ar_1, array_2));
+console.log(compararArrays(ar_1, ar_2));
