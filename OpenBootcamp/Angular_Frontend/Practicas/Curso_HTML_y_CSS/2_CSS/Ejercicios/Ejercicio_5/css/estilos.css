@@ -1,0 +1,71 @@
+/* Rellenamos los bordes de la página */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Le ponemos estilos de fuente a nuestro h1 */
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 50pt;
+}
+
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* Agregamos un ancho a cada elemnto */
+.width {
+    width: 100vw;
+}
+
+/* Esta clase nos servirá para agregar una posición estática a cada uno de sus elementos */
+.static-position {
+    position: static;
+}
+
+/* Creamos una clase "header" para los elementos que representan a la imágen y al título de nuestra cabecera con posición absoluta */
+.header {
+    position: absolute;
+}
+
+/* creamos una clase "container" que tendrá un tamaño de 930 píxeles al igual que la clase "header" */
+.container, .header {
+    height: 930px;
+}
+
+/* Esta clase nos servirá para agregar un ancho de 10 píxeles a nuestra grid */
+.gap-10 {
+    gap: 10px; 
+}
+
+/* Con esta clase agregamos un display flex a cada uno de sus elementos */
+.display-flex {
+    display: flex;
+}
+
+/* Con esta clase centramos el contenido de cada uno de sus elementos */
+.content-center {
+    justify-content: center;
+}
+
+/* Con esta clase centramos el título de nuestro header */
+.display-text {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Con esta clase agrupamos el contenido de nuestra galería */
+.galeria {
+    flex-wrap: wrap;
+}
+
+/* Agregamos estilos a las imágenes de nuestra galería */
+.imagen-galeria {
+    width: 300px;
+    border: 4.5px gray solid;
+    border-radius: 10px;
+}
