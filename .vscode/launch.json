@@ -5,6 +5,27 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "com.ejercicio_modulo_3.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Funciones",
+            "request": "launch",
+            "mainClass": "com.funciones.Funciones",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "com.funciones.Operadores",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "com.ejercicio_modulo_2.Main",
             "projectName": "Cursos_b439a0e0"
         },
