@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.ejercicio_modulo_2.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "AdiosMundo",
+            "request": "launch",
+            "mainClass": "com.example.AdiosMundo",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "HolaMundo",
+            "request": "launch",
+            "mainClass": "com.example.HolaMundo",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
             "name": "SacnnerMain",
             "request": "launch",
             "mainClass": "org.scanner_practica.SacnnerMain",
