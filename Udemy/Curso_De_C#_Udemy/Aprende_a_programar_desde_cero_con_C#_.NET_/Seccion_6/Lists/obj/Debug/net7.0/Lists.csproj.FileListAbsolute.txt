@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/bin/Debug/net7.0/Lists
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/bin/Debug/net7.0/Lists.deps.json
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/bin/Debug/net7.0/Lists.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/bin/Debug/net7.0/Lists.dll
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/bin/Debug/net7.0/Lists.pdb
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/obj/Debug/net7.0/Lists.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/obj/Debug/net7.0/Lists.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/obj/Debug/net7.0/Lists.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/obj/Debug/net7.0/Lists.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/obj/Debug/net7.0/Lists.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/obj/Debug/net7.0/Lists.dll
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/obj/Debug/net7.0/refint/Lists.dll
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/obj/Debug/net7.0/Lists.pdb
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/obj/Debug/net7.0/Lists.genruntimeconfig.cache
+/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Lists/obj/Debug/net7.0/ref/Lists.dll
