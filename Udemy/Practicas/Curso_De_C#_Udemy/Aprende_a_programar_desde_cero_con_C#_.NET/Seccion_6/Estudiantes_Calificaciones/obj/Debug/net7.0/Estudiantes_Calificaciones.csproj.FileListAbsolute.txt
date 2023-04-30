@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/bin/Debug/net7.0/Estudiantes_Calificaciones
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/bin/Debug/net7.0/Estudiantes_Calificaciones.deps.json
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/bin/Debug/net7.0/Estudiantes_Calificaciones.runtimeconfig.json
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/bin/Debug/net7.0/Estudiantes_Calificaciones.dll
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/bin/Debug/net7.0/Estudiantes_Calificaciones.pdb
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/obj/Debug/net7.0/Estudiantes_Calificaciones.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/obj/Debug/net7.0/Estudiantes_Calificaciones.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/obj/Debug/net7.0/Estudiantes_Calificaciones.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/obj/Debug/net7.0/Estudiantes_Calificaciones.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/obj/Debug/net7.0/Estudiantes_Calificaciones.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/obj/Debug/net7.0/Estudiantes_Calificaciones.dll
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/obj/Debug/net7.0/refint/Estudiantes_Calificaciones.dll
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/obj/Debug/net7.0/Estudiantes_Calificaciones.pdb
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/obj/Debug/net7.0/Estudiantes_Calificaciones.genruntimeconfig.cache
+/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/obj/Debug/net7.0/ref/Estudiantes_Calificaciones.dll
