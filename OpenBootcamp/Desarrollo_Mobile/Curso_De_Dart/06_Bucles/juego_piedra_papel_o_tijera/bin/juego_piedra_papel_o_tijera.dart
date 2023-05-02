@@ -47,7 +47,7 @@ void main(List<String> arguments) {
               continue;
             }
 
-            eleccion_ordenador = opciones[random.nextInt(2)];
+            eleccion_ordenador = opciones[random.nextInt(opciones.length)];
             print("\nLa IA a elegido: $eleccion_ordenador");
 
             if (eleccion_usuario_1 == "piedra" && eleccion_ordenador == "tijeras") {
