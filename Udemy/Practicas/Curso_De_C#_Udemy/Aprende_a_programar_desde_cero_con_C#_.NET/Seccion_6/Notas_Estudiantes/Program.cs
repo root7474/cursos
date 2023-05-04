@@ -14,7 +14,7 @@ namespace Notas_Estudiantes
         {
             String nombre; // Creamos una variable "nombre" de tipo string
             Console.Write("Bienvenido... \nDigita tu nombre: ");
-            nombre = Console.ReadLine()!; // Pedimos que el usuario ingrese su nombre por consola y lo guardamos dentro de nombre
+            nombre = Console.ReadLine(); // Pedimos que el usuario ingrese su nombre por consola y lo guardamos dentro de nombre
             MenuOpciones(nombre); // Enviamos el nombre del usuario a la función "MenuOpciones"
         }
 
@@ -72,7 +72,7 @@ namespace Notas_Estudiantes
             {
                 // En cada iteración pedimos que se ingrese un nombre y una calificación para cada estudiante
                 Console.Write($"Ingresa el nombre del estudiante {i + 1}: ");
-                nombreEstudiantes = Console.ReadLine()!;
+                nombreEstudiantes = Console.ReadLine();
                 calificacionEstudiantes = GetDoubleDataFromUser($"Ingresa la calificación de {nombreEstudiantes}: ");
 
                 listaOrdenada.Add(nombreEstudiantes, calificacionEstudiantes); // Agregamos a nuestra lista el nombre y la calficación ingresados en cada iteración
@@ -88,7 +88,7 @@ namespace Notas_Estudiantes
         // La siguiente función validará que solo se puedan ingresar números enteros
         private static int GetIntegerDataFromUser(String message)
         {
-            String ? userData;
+            String userData;
             int data = 0;
             bool isDataValid = false;
 
@@ -114,7 +114,7 @@ namespace Notas_Estudiantes
         // Realizamos los mismos pasos que la función anterior pero esta vez con números decimales
         private static Double GetDoubleDataFromUser(String message)
         {
-            String ? userData;
+            String userData;
             Double data = 0;
             bool isDataValid = false;
 

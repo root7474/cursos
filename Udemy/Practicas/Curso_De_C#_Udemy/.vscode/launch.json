@@ -8,19 +8,13 @@
             "name": ".NET Launch (console)",
             "type": "clr",
             "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/calco.exe",
-            "args": [],
             "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
-            "stopAtEntry": false,
-            "internalConsoleOptions": "openOnSessionStart"
         },
         {
             "name": ".NET Attach",
             "type": "clr",
             "request": "attach",
             "processId": "${command:pickProcess}"
-        }
+        },
     ]
 }
