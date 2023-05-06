@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk, messagebox
 import Modules.Juego as Juego
 
 class RootPrincipal(tk.Tk):
@@ -13,28 +13,43 @@ class RootPrincipal(tk.Tk):
         self.title("Juego Piedra Papel o Tijeras")
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
+        
         self.frm = ttk.Frame(self)
         self.frm.grid(sticky='nesw')
+        
         self.label_titulo = ttk.Label(self.frm, text="Bienvenido")
         self.label_titulo.grid(column=0, row=0, columnspan=3, pady=5)
+        
         self.label_nombre = ttk.Label(self.frm, text="Digita tu nombre:", width=15)
         self.label_nombre.grid(column=0, row=1, sticky='e', padx=15, pady=3)
         self.caja_nombre = ttk.Entry(self.frm, width=25)
         self.caja_nombre.grid(column=1, row=1, sticky='w', padx=10, pady=3)
-        self.boton_abrir = ttk.Button(self.frm, width=24, text="Comenzar juego", command=self.abrir_root_sec)
-        self.boton_abrir.grid(column=1, row=2, sticky='', padx=10, pady=3)
-        self.boton_cerrar = ttk.Button(self.frm, width=14, text="Cerrar juego", command=self.destroy)
-        self.boton_cerrar.grid(column=0, row=2, sticky='e', padx=15, pady=3)
         
-    def destroy(self):
+        self.label_caja_intentos = ttk.Label(self.frm, text="Intentos:", width=15)
+        self.label_caja_intentos.grid(column=0, row=2, sticky='e', padx=15, pady=3)
+        self.caja_intentos = ttk.Entry(self.frm, width=25)
+        self.caja_intentos.grid(column=1, row=2, sticky='w', padx=10, pady=3)
+        
+        self.boton_abrir = ttk.Button(self.frm, width=24, text="Comenzar juego", command=self.enviar_datos)
+        self.boton_abrir.grid(column=1, row=3, sticky='', padx=10, pady=3)
+        self.boton_cerrar = ttk.Button(self.frm, width=14, text="Cerrar juego", command=self.exit)
+        self.boton_cerrar.grid(column=0, row=3, sticky='e', padx=15, pady=3)
+        
+    def exit(self):
         return super().quit()
-        
-    def abrir_root_sec(self):
+    
+    def enviar_datos(self):
         if not Juego.RootSec.en_uso:
             self.callback = self.caja_nombre.get()
             self.root_sec = Juego.RootSec()
             self.root_sec.nombre_ingresado(self.callback)
+            
+            try:
+                self.root_sec.my_dialog(int(self.caja_intentos.get()))
+            except ValueError:
+                messagebox.showerror(message="Error!!!... Debes ingresar una cantidad de intentos")
+                self.root_sec.destroy()
             return super().state(newstate="withdraw")
         else:
             return super().state(newstate="normal")
-        
+    
