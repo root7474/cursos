@@ -34,22 +34,27 @@ class RootPrincipal(tk.Tk):
         self.boton_abrir.grid(column=1, row=3, sticky='', padx=10, pady=3)
         self.boton_cerrar = ttk.Button(self.frm, width=14, text="Cerrar juego", command=self.exit)
         self.boton_cerrar.grid(column=0, row=3, sticky='e', padx=15, pady=3)
-        
+    
     def exit(self):
         return super().quit()
     
     def enviar_datos(self):
         if not Juego.RootSec.en_uso:
             self.callback = self.caja_nombre.get()
-            self.root_sec = Juego.RootSec()
-            self.root_sec.nombre_ingresado(self.callback)
             
-            try:
-                self.root_sec.my_dialog(int(self.caja_intentos.get()))
-            except ValueError:
-                messagebox.showerror(message="Error!!!... Debes ingresar una cantidad de intentos")
-                self.root_sec.destroy()
-            return super().state(newstate="withdraw")
+            if len(self.callback) == 0:
+                messagebox.showerror(message="Error!!!... Debes digitar un nombre")
+                return super().state(newstate="normal")
+            else:
+                self.root_sec = Juego.RootSec()
+                self.root_sec.nombre_ingresado(self.callback)
+
+                try:
+                    self.root_sec.my_dialog(int(self.caja_intentos.get()))
+                except ValueError:
+                    messagebox.showerror(message="Error!!!... Debes ingresar una cantidad de intentos")
+                    self.root_sec.destroy()
+                return super().state(newstate="withdraw")
         else:
             return super().state(newstate="normal")
     
