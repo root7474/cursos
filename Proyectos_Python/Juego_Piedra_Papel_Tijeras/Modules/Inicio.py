@@ -3,9 +3,9 @@ from tkinter import ttk, messagebox
 import Modules.Juego as Juego
 
 class RootPrincipal(tk.Tk):
-    def __init__(self, *args, callback = None, **kwargs):
+    def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.callback = callback
+        # self.callback = callback
         self.geometry("380x123")
         self.resizable(0, 0)
         self.icono = tk.PhotoImage(file="/home/root7474/Documents/Cursos/Proyectos_Python/Juego_Piedra_Papel_Tijeras/icon/icon.png", master=self)
@@ -40,17 +40,25 @@ class RootPrincipal(tk.Tk):
     
     def enviar_datos(self):
         if not Juego.RootSec.en_uso:
-            self.callback = self.caja_nombre.get()
+            nombre = self.caja_nombre.get()
+            intentos = int(self.caja_intentos.get())
             
-            if len(self.callback) == 0:
-                messagebox.showerror(message="Error!!!... Debes digitar un nombre")
+            if len(nombre) == 0:
+                messagebox.showerror(message="Error!!!... Debes digitar un nombre valido")
+                return super().state(newstate="normal")
+            elif not nombre.isalnum:
+                messagebox.showerror(message="Error!!!... Debes digitar un nombre valido")
                 return super().state(newstate="normal")
             else:
                 self.root_sec = Juego.RootSec()
-                self.root_sec.nombre_ingresado(self.callback)
-
+                self.root_sec.nombre_ingresado(nombre)
+            
                 try:
-                    self.root_sec.my_dialog(int(self.caja_intentos.get()))
+                    if intentos > 0:
+                        self.root_sec.my_dialog(intentos)
+                    else:
+                        messagebox.showerror(message="Error!!!... Debes digitar un número mayor que cero")
+                        self.root_sec.destroy()
                 except ValueError:
                     messagebox.showerror(message="Error!!!... Debes ingresar una cantidad de intentos")
                     self.root_sec.destroy()
