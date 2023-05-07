@@ -22,8 +22,7 @@ class RootSec(tk.Toplevel):
         
         self.label_intentos = ttk.Label(self.frm, text="")
         self.label_intentos.grid(column=0, row=0, columnspan=4, pady=5)
-        
-
+            
         self.label_nombre = ttk.Label(self.frm, text="")
         self.label_nombre.grid(column=0, row=1, pady=5)
         self.label_nombre_turno = ttk.Label(self.frm, text="")
@@ -59,10 +58,10 @@ class RootSec(tk.Toplevel):
     def my_dialog(self, intentos):
         self.intentos = intentos
         self.label_intentos.config(text=f"Intento número: {self.intentos}")
-    
+        
     def boton(self, opcion):
-        opciones = opcion
-        self.piedra_papel_tijeras(opciones)
+        self.opciones = opcion
+        self.piedra_papel_tijeras(self.opciones)
 
     def piedra_papel_tijeras(self, opciones_usuario):
         opciones_IA = ["piedra", "papel", "tijeras"]
