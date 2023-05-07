@@ -40,29 +40,26 @@ class RootPrincipal(tk.Tk):
     
     def enviar_datos(self):
         if not Juego.RootSec.en_uso:
-            nombre = self.caja_nombre.get()
-            intentos = int(self.caja_intentos.get())
+            root_sec = Juego.RootSec()
             
-            if len(nombre) == 0:
-                messagebox.showerror(message="Error!!!... Debes digitar un nombre valido")
-                return super().state(newstate="normal")
-            elif not nombre.isalnum:
-                messagebox.showerror(message="Error!!!... Debes digitar un nombre valido")
-                return super().state(newstate="normal")
-            else:
-                self.root_sec = Juego.RootSec()
-                self.root_sec.nombre_ingresado(nombre)
+            try:
+                nombre = self.caja_nombre.get()
+                intentos = int(self.caja_intentos.get())
+                
+                if len(nombre) == 0:
+                    messagebox.showerror(message="Error!!!... Debes digitar un nombre valido")
+                    root_sec.destroy()
+                elif intentos <= 0:
+                    messagebox.showerror(message="Error!!!... Debes digitar un número mayor que cero")
+                    root_sec.destroy()
+                else:
+                    root_sec.nombre_ingresado(nombre)
+                    root_sec.my_dialog(intentos)
             
-                try:
-                    if intentos > 0:
-                        self.root_sec.my_dialog(intentos)
-                    else:
-                        messagebox.showerror(message="Error!!!... Debes digitar un número mayor que cero")
-                        self.root_sec.destroy()
-                except ValueError:
-                    messagebox.showerror(message="Error!!!... Debes ingresar una cantidad de intentos")
-                    self.root_sec.destroy()
-                return super().state(newstate="withdraw")
+            except ValueError:
+                messagebox.showerror(message="Error!!!... Debes ingresar una cantidad de intentos")
+                root_sec.destroy()
+            return super().state(newstate="withdraw")
         else:
             return super().state(newstate="normal")
     
