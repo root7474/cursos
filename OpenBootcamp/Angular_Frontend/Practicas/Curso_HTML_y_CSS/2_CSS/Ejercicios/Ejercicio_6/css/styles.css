@@ -1,0 +1,23 @@
+/* Agregamos un color de fondo, un tamaño y un border radius a nuestro botón */
+.boton {
+    background-color: #a86c6c;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/* Agregamos un texto a nuestro botón con el pseudoelemento "before" */
+.boton::before {
+    content: "Pasa por encima";
+}
+
+/* Después de pasar por encima del botón, se cambiará el color del texto y el color de fondo del botón con la pesudoclase "hover" */
+.boton:hover {
+    color: white;
+    background-color: green;
+}
+
+/* Tambíen cambiará su texto después de pasarle la pseudoclase "hover" a través del peseudoelemento "before" */
+.boton:hover::before {
+    content: "¡Hecho!";
+}
