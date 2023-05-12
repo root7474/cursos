@@ -3,6 +3,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.ejercicio_modulo_4.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "BucleWhile",
+            "request": "launch",
+            "mainClass": "org.repetitivas.BucleWhile",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "BucleForEach",
+            "request": "launch",
+            "mainClass": "org.repetitivas.BucleForEach",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "BucleFor",
+            "request": "launch",
+            "mainClass": "org.repetitivas.BucleFor",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "SentenciaSwitch",
+            "request": "launch",
+            "mainClass": "org.condicionales.SentenciaSwitch",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "IfElseIf",
+            "request": "launch",
+            "mainClass": "org.condicionales.IfElseIf",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "IfElse",
+            "request": "launch",
+            "mainClass": "org.condicionales.IfElse",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "SentenciaIf",
+            "request": "launch",
+            "mainClass": "org.condicionales.SentenciaIf",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
             "name": "Funciones",
             "request": "launch",
             "mainClass": "com.funciones_practica.Funciones",
