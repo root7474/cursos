@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Funciones",
+            "request": "launch",
+            "mainClass": "com.funciones_practica.Funciones",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "com.funciones_practica.Operadores",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "AdiosMundo",
+            "request": "launch",
+            "mainClass": "com.practicaExample.AdiosMundo",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "HolaMundo",
+            "request": "launch",
+            "mainClass": "com.practicaExample.HolaMundo",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "com.ejercicio_modulo_3.Main",
@@ -383,7 +411,7 @@
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}"
         },
         {
             "name": ".NET Core Attach",

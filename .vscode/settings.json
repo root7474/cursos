@@ -2,10 +2,12 @@
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.project.sourcePaths": [
         "OpenBootcamp/Java_Backend/Practicas/Pruebas/calculadora/app/src/main/java",
+        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/Ejercicios/Ejercicio_2/src",
+        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/2_IDE_Archivos_Java_Sintaxis/ob_sesion_1/src",
         "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/2_IDE_Archivos_Java_Sintaxis/ejercicio_1/src",
         "OpenBootcamp/Java_Backend/1_Java_Basico/3_Funciones/src",
         "OpenBootcamp/Java_Backend/1_Java_Basico/2_IDE_Archivos_Java_Sintaxis/ob_sesion_1/src",
-        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/Ejercicios/Ejercicio_2/src"
+        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/3_Funciones/src"
     ],
     "sqltools.connections": [
         {
