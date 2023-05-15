@@ -222,7 +222,7 @@ void main(List<String> arguments) {
         if (division == double.infinity) {
           print("Error!!!... División por cero"); // SI "división" es igual a infinito, se nos muestra este error
         } else {
-          print("El resultado de la división es: ${division!.toStringAsFixed(4)}"); // Imprimimos el resultado de la división
+          print("El resultado de la división es: ${division!.toStringAsFixed(4)}");
         }
       } else if (opcion == 5) {
         while (true) {
