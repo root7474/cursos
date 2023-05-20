@@ -6,6 +6,6 @@ Udemy/Udemy_GitHub
 package_config.json
 
 # Archivos .config y .cache
-*.cahe
+*.cache
 *.editorconfig
 *.config
