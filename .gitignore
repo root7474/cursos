@@ -4,3 +4,6 @@ Udemy/Udemy_GitHub
 
 # Configuraciones .json
 *.json
+
+# Directorios de configuración
+.vscode
