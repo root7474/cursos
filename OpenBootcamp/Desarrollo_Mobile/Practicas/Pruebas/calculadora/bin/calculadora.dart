@@ -15,7 +15,6 @@ void main(List<String> arguments) {
   double ? division;
   double ? porcentaje;
   bool pass = false; // Usamos esta variable como condicional para la ejecución del programa
-  List listaNumeros; // Declaramos un variable tipo lista para guardar un cantidad de números
 
   // Generamos un mensaje de bienvenida y pedimos que se ingrese un nombre
   print("Bienvenido!!!... Digita tu nombre: ");
@@ -23,235 +22,233 @@ void main(List<String> arguments) {
 
   // Se ejcutará lo diguiente mientras "pass" sea igual a false
   while (pass == false) {
-    print("\n$nombre digita una opcion:\n"
-          "\n1.) Suma."
-          "\n2.) Resta."
-          "\n3.) Multiplicación."
-          "\n4.) División."
-          "\n5.) Porcentaje de un número."
-          "\n0.) Salir."
-          "\n\nOpción:"); // Imprimimos un menú de opciones
+      opcion = getInt("\n$nombre digita una opción\n"
+                      "\n1.) Suma."
+                      "\n2.) Resta."
+                      "\n3.) Multiplicación."
+                      "\n4.) División."
+                      "\n5.) Porcentaje de un número."
+                      "\n0.) Salir."
+                      "\n\nOpción:"); // Pedimos que se ingrese una opción("\n$nombre digita una opcion:\n"
 
-    try {
-      // Si no se presiona ctrl + D, el programa continuará con su ejecución
-      opcion = int.tryParse(stdin.readLineSync()!); // Pedimos que se ingrese una opción
-
-      // Si la opción ingresada es 1
-      if (opcion == 1) {
-        suma = null; // "suma" será igual a null
-        listaNumeros = []; // En cada iteración pondremos una lista vacia en "listaNumeros"
-
-        // Lo siguiente se ejecutará hasta que la cantidad ingresada sea un número
-        while (true) {
-          print("\nDigita una cantidad de números a sumar:");
-          cantidad = int.tryParse(stdin.readLineSync()!);
-
-          if (cantidad == null) {
-            print("Error!!!... Debes digitar números");
-          } else {
-            break;
-          }
-        }
-
-        print(""); // Imprimimos un salto de línea
-
-        // Haremos una iteración hasta llegar a "cantidad"
-        for (int i = 0; i < cantidad; i++) {
-          print("Digita el número ${i + 1}:"); // Pedimos que se ingrese un número
-          numero = double.tryParse(stdin.readLineSync()!); // Intentaremos convertir ese número a double
-
-          // Evaluamos que lo que se ha ingresado sea un número
-          if (numero == null) {
-            print("Error!!!... Debes digitar números");
-            i--; // Retrocederemos -1 si no se ha ingresado un número
-          } else {
-            listaNumeros.add(numero); // Si se ha ingresado un número, lo agregamos a la lista
-          }
-        }
-
-        print("\nLista de números sumados: $listaNumeros\n"); // Imprimimos la lista de números
-
-        // A continuación haremos la operación de suma de cada número de la lista
-        // Recorremos todos los elementos de la lista
-        for (double num in listaNumeros) {
-          if (suma == null) {
-            suma = num; // Si "suma" es igual a null le agregamos el primer elemento de la lista
-          } else {
-            suma += num; // Hacemos la suma de lo que hay en "suma" + el siguiente elemento de la lista
-          }
-        }
-
+    // Si no se presiona ctrl + D, el programa continuará con su ejecución
+    switch (opcion) {
+      case 1:
+        // Si la opción ingresada es 1
+        cantidad = getInt("\nDigita una cantidad de números a sumar:"); // Pedimos que se ingrese una cantidad de números
+        suma = sumaOperacion(cantidad); // Enviamos dicha cantidad a "sumaOperacion()"
         print("El resultado de la suma es: $suma"); // Imprimimos el resultado de la suma
-      } else if (opcion == 2) {
+        break;
+      case 2:
         // Si la opción ingresada es 2
-        resta = null; // "resta" será igual a null
-        listaNumeros = []; // En cada iteración pondremos una lista vacia en "listaNumeros"
-
-        // Lo siguiente se ejecutará hasta que la cantidad ingresada sea un número
-        while (true) {
-          print("\nDigita una cantidad de números a restar:");
-          cantidad = int.tryParse(stdin.readLineSync()!);
-
-          if (cantidad == null) {
-            print("Error!!!... Debes digitar números");
-          } else {
-            break;
-          }
-        }
-
-        print(""); // Imprimimos un salto de línea
-
-        // Haremos una iteración hasta llegar a "cantidad"
-        for (int i = 0; i < cantidad; i++) {
-          print("Digita el número ${i + 1}:"); // Pedimos que se ingrese un número
-          numero = double.tryParse(stdin.readLineSync()!); // Intentaremos convertir ese número a double
-
-          // Evaluamos que lo que se ha ingresado sea un número
-          if (numero == null) {
-            print("Error!!!... Debes digitar números");
-            i--; // Retrocederemos -1 si no se ha ingresado un número
-          } else {
-            listaNumeros.add(numero); // Si se ha ingresado un número, lo agregamos a la lista
-          }
-        }
-
-        print("\nLista de números a restar: $listaNumeros\n"); // Imprimimos la lista de números
-
-        // A continuación haremos la operación de resta de cada número de la lista
-        // Recorremos todos los elementos de la lista
-        for (double num in listaNumeros) {
-          if (resta == null) {
-            resta = num; // Si "resta" es igual a null le agregamos el primer elemento de la lista
-          } else {
-            resta -= num; // Hacemos la resta de lo que hay en "resta" - el siguiente elemento de la lista
-          }
-        }
-
+        cantidad = getInt("\nDigita una cantidad de números a restar:"); // Pedimos que se ingrese una cantidad de números
+        resta = restaOperacion(cantidad); // Enviamos dicha cantidad a "restaOperacion()"
         print("El resultado de la resta es: $resta"); // Imprimimos el resultado de la resta
-      } else if (opcion == 3) {
-        // Si la opción ingresada es 2
-        multiplicacion = null; // "multiplicacion" será igual a null
-        listaNumeros = []; // En cada iteración pondremos una lista vacia en "listaNumeros"
-
-        // Lo siguiente se ejecutará hasta que la cantidad ingresada sea un número
-        while (true) {
-          print("\nDigita una cantidad de números a multiplicar:");
-          cantidad = int.tryParse(stdin.readLineSync()!);
-
-          if (cantidad == null) {
-            print("Error!!!... Debes digitar números");
-          } else {
-            break;
-          }
-        }
-
-        print(""); // Imprimimos un salto de línea
-
-        // Haremos una iteración hasta llegar a "cantidad"
-        for (int i = 0; i < cantidad; i++) {
-          print("Digita el número ${i + 1}:"); // Pedimos que se ingrese un número
-          numero = double.tryParse(stdin.readLineSync()!); // Intentaremos convertir ese número a double
-
-          // Evaluamos que lo que se ha ingresado sea un número
-          if (numero == null) {
-            print("Error!!!... Debes digitar números");
-            i--; // Retrocederemos -1 si no se ha ingresado un número
-          } else {
-            listaNumeros.add(numero); // Si se ha ingresado un número, lo agregamos a la lista
-          }
-        }
-
-        print("\nLista de números a multiplicar: $listaNumeros\n"); // Imprimimos la lista de números
-
-        // A continuación haremos la operación de multiplicación de cada número de la lista
-        // Recorremos todos los elementos de la lista
-        for (double num in listaNumeros) {
-          if (multiplicacion == null) {
-            multiplicacion = num; // Si "multiplicacion" es igual a null le agregamos el primer elemento de la lista
-          } else {
-            multiplicacion *= num; // Hacemos la multiplicación de lo que hay en "multiplicacion" - el siguiente elemento de la lista
-          }
-        }
-
+        break;
+      case 3:
+        // Si la opción ingresada es 3
+        cantidad = getInt("\nDigita una cantidad de números a sumar:"); // Pedimos que se ingrese una cantidad de números
+        multiplicacion = multiplicacionOperacion(cantidad); // Enviamos dicha cantidad a "multiplicacionOperacion"
         print("El resultado de la multiplicación es: $multiplicacion"); // Imprimimos el resultado de la multiplicación
-      } else if (opcion == 4) {
-        // Si la opción ingresada es 2
-        division = null; // "division" será igual a null
-        listaNumeros = []; // En cada iteración pondremos una lista vacia en "listaNumeros"
+        break;
+      case 4:
+        // Si la opción ingresada es 4
+        cantidad = getInt("\nDigita una cantidad de números a dividir:"); // Pedimos que se ingrese una cantidad de números
+        division = divisionOperacion(cantidad); // Enviamos dicha cantidad a "divisionOperacion()"
 
-        // Lo siguiente se ejecutará hasta que la cantidad ingresada sea un número
-        while (true) {
-          print("\nDigita una cantidad de números a dividir:");
-          cantidad = int.tryParse(stdin.readLineSync()!);
-
-          if (cantidad == null) {
-            print("Error!!!... Debes digitar números");
-          } else {
-            break;
-          }
-        }
-
-        print(""); // Imprimimos un salto de línea
-
-        // Haremos una iteración hasta llegar a "cantidad"
-        for (int i = 0; i < cantidad; i++) {
-          print("Digita el número ${i + 1}:"); // Pedimos que se ingrese un número
-          numero = double.tryParse(stdin.readLineSync()!); // Intentaremos convertir ese número a double
-
-          // Evaluamos que lo que se ha ingresado sea un número
-          if (numero == null) {
-            print("Error!!!... Debes digitar números");
-            i--; // Retrocederemos -1 si no se ha ingresado un número
-          } else {
-            listaNumeros.add(numero); // Si se ha ingresado un número, lo agregamos a la lista
-          }
-        }
-
-        print("\nLista de números a dividir: $listaNumeros\n"); // Imprimimos la lista de números
-
-        // A continuación haremos la operación de división de cada número de la lista
-        // Recorremos todos los elementos de la lista
-        for (double num in listaNumeros) {
-          if (division == null) {
-            division = num; // Si "division" es igual a null le agregamos el primer elemento de la lista
-          } else {
-            division /= num; // Hacemos la división de lo que hay en "division" - el siguiente elemento de la lista
-          }
-        }
-
-        if (division == double.infinity) {
-          print("Error!!!... División por cero"); // Si "división" es igual a infinito, se nos muestra este error
+        if (division == null) {
+          print("Error!!!... División entre cero"); // Si "division" es igual a null, se nos muestra este error
         } else {
-          print("El resultado de la división es: ${division!.toStringAsFixed(4)}"); // Imprimimos el resultado redondeado a 4 decimales
+          print("El resultado de la división es: ${division.toStringAsFixed(3)}"); // Si no, entonces imprimimos el resultado redondeado a 3 decimales
         }
-      } else if (opcion == 5) {
-        while (true) {
-          // Si la opción ingresada es 5, ejecutamos un  ciclo while()
-          // Pedimos que se ingrese un número
-          print("\nDigita un número para calcular su porcentaje:");
-          numero = double.tryParse(stdin.readLineSync()!);
 
-          // Evalumaos lo que se ha ingresado
-          // Si no se ha ingresado un número
-          if (numero == null) {
-            print("Error!!!.. Debes digitar números"); // En cada iteración se nos muestra este error hasta ingresar un número
-          } else {
-            porcentaje = numero / 100; // Si se ha ingresado un número, se hará el calculo del porcentaje de dicho número
-            print("\nEl porcentaje de $numero es: $porcentaje"); // Imprimimos el resultado en consola
-            break; // Rompemos el ciclo
-          }
-        }
-      } else if (opcion == 0) {
+        break;
+      case 5:
+        // Si la opción ingresada es 5
+        porcentaje = porcentajeOperacion(); // Instanciamos a la función "porcentajeOperacion()"
+        print("El porcentaje de $numero es: ${porcentaje.toStringAsFixed(2)}"); // Imprimimos el porcentaje redondeado a 3 decimales
+        break;
+      case 0:
         // Si la opción ingresada es 0
-        print("\nHasta luego...");
+        print("\nHasta luego..."); // Imprimimos un mensaje de despedida
         pass = true; // "pass" será igual a true y se cerrará la ejecución del programa
-      } else {
+        break;
+      default:
         print("Error!!!... Opción incorrecta"); // Imprimimos un error si la opción ingresada es incorrecta
-      }
-    } catch (e) {
-      // Si se presiona ctrl + D el programa cerrará su ejecución
-      print("\nHasta luego...");
-      exit(0);
+        break;
     }
   }
+}
+
+// Creamos una función "sumaOperacion()" y le psamos como prámetro una cantidad de números
+double ? sumaOperacion(int cantidad) {
+  double ? numero; // Declaramos una variable "numero"
+  double ? suma; // Declaramos una variable "suma"
+  List listaNumeros = []; // Declaramos una lista vacia de números
+  
+  print(""); // Imprimimos un salto de línea
+
+  // Haremos una iteración hasta llegar a "cantidad"
+  for (int i = 0; i < cantidad; i++) {
+    numero = getDouble("Digita el número ${i + 1}:"); // En cada iteración pediremos un número y lo enviaremos a "getDouble()"
+    listaNumeros.add(numero); // Agregaremos el número ingresado a la lista de números
+  }
+
+  print("\nLista de números sumados: $listaNumeros\n"); // Imprimimos la lista de números
+
+  // A continuación haremos la suma de cada número de la lista
+  // Recorremos todos los elementos de la lista
+  for (double num in listaNumeros) {
+    if (suma == null) {
+      suma = num; // Si "suma" es igual a null le agregamos el primer elemento de la lista
+    } else {
+      suma += num; // Hacemos la suma de lo que hay en "suma" más el siguiente elemento de la lista
+    }
+  }
+
+  return suma; // Retornamos el valor de "suma"
+}
+
+// Creamos una función "restaOperacion()" y le psamos como prámetro una cantidad de números
+double ? restaOperacion(int cantidad) {
+  double ? numero; // Declaramos una variable "numero"
+  double ? resta; // Declaramos una variable "resta"
+  List listaNumeros = []; // Declaramos una lista vacia de números
+  
+  print(""); // Imprimimos un salto de línea
+  
+  // Haremos una iteración hasta llegar a "cantidad"
+  for (int i = 0; i < cantidad; i++) {
+    numero = getDouble("Digita el número ${i + 1}:"); // Pedimos un número en cada iteración
+    listaNumeros.add(numero); // Agregamos el número ingresado a la lista de números
+  }
+
+  print("\nLista de números a restar: $listaNumeros\n"); // Imprimimos la lista de números
+
+  // A continuación haremos la operación de resta de cada número de la lista
+  // Recorremos todos los elementos de la lista
+  for (double num in listaNumeros) {
+    if (resta == null) {
+      resta = num; // Si "resta" es igual a null le agregamos el primer elemento de la lista
+    } else {
+      resta -= num; // Hacemos la resta de lo que hay en "resta" menos el siguiente elemento de la lista
+    }
+  }
+
+  return resta; // Retornamos el valor de "resta"
+}
+
+// Creamos una función "multiplicacionOperacion()" y le psamos como prámetro una cantidad de números
+double ? multiplicacionOperacion(int cantidad) {
+  double ? numero; // Declaramos una variable "numero"
+  double ? multiplicacion; // Declaramos una variable "multiplicacion"
+  List listaNumeros = []; // Pondremos una lista vacia en "listaNumeros"
+
+  print(""); // Imprimimos un salto de línea
+
+  // Haremos una iteración hasta llegar a "cantidad"
+  for (int i = 0; i < cantidad; i++) {
+    numero = getDouble("Digita el número ${i + 1}:"); // En cada iteración pediremos un número y lo enviaremos a "getDouble()"
+    listaNumeros.add(numero); // Agregaremos el número ingresado a la lista de números
+  }
+
+  print("\nLista de números a multiplicar: $listaNumeros\n"); // Imprimimos la lista de números
+
+  // A continuación haremos la operación de multiplicación de cada número de la lista
+  // Recorremos todos los elementos de la lista
+  for (double num in listaNumeros) {
+    if (multiplicacion == null) {
+      multiplicacion = num; // Si "multiplicacion" es igual a null le agregamos el primer elemento de la lista
+    } else {
+      multiplicacion *= num; // Hacemos la multiplicación de lo que hay en "multiplicacion" por el siguiente elemento de la lista
+    }
+  }
+
+  return multiplicacion; // Retornamos el valor de "multiplicacion"
+}
+
+// Creamos una función "divisionOperacion()" y le psamos como prámetro una cantidad de números
+double ? divisionOperacion(int cantidad) {
+  double ? numero; // Declaramos una variable "numero"
+  double ? division; // Declaramos una variable "division"
+  List listaNumeros = []; // Pondremos una lista vacia en "listaNumeros"
+  
+
+  print(""); // Imprimimos un salto de línea
+
+  // Haremos una iteración hasta llegar a "cantidad"
+  for (int i = 0; i < cantidad; i++) {
+    numero = getDouble("Digita el número ${i + 1}:"); // En cada iteración pediremos un número y lo enviaremos a "getDouble()"
+    listaNumeros.add(numero); // Pondremos una lista vacia en "listaNumeros"
+  }
+
+  print("\nLista de números a dividir: $listaNumeros\n"); // Imprimimos la lista de números
+
+  // A continuación haremos la operación de división de cada número de la lista
+  // Recorremos todos los elementos de la lista
+  for (double num in listaNumeros) {
+    if (division == null) {
+      division = num; // Si "division" es igual a null le agregamos el primer elemento de la lista
+    } else {
+      division /= num; // Hacemos la división de entre lo que hay en "division" y el siguiente elemento de la lista
+    }
+  }
+
+  if (division == double.infinity) {
+    return null; // Si la división retorna un valor de infinito, retornamos null
+  } else {
+    return division; // Si no, retornamos el valor de "division"
+  }
+}
+
+// Porcentaje
+double porcentajeOperacion() {
+  double ? numero; // Declaramos una variable "numero"
+  double ? porcentaje; // Declaramos una variable "division"
+  numero = getDouble("Digita un número para calcular su porcentaje:"); // Aquí solo pediremos un número y lo enviaremos a "getDouble()"
+  porcentaje = numero / 100; // Calculamos el porcentaje de "Numero"
+  
+  return porcentaje; // Retornamos el valor de "porcentaje"
+}
+
+// A continuación evaluaremos todo lo que el usuario ingrese por teclado
+// Creamos una fución "getInt()" que recibe como parámetro una cadena de texto
+int getInt(String message) {
+  int data = 0; // Declaramos una variable data y la inicializamos en cero
+  bool pass = false; // Esta variable nos servirá como condición para esta función
+
+  // Mientras que pass sea igual a false, haremos lo siguiente
+  while (pass == false) {
+    print(message); // Imprimimos la cadena texto
+    
+    // Evaluamos lo que se ha ingresado por consola
+    try {
+      data = int.tryParse(stdin.readLineSync()!)!; // Pedimos que se ingrese un dato y lo convertimos a entero
+      pass = true; // Si se ha ingresado un número, entonces "pass" será igual a true y se romperá el ciclo
+    } catch (e) {
+      print("Error!!!.. Debes digitar números"); // Si se han ingresado espacios o caracteres, generamos un error hasta que se ingrese un número
+    }
+  }
+
+  return data; // Retornamos el valor de "data"
+}
+
+// Creamos una fución "getDouble()" que recibe como parámetro una cadena de texto
+double getDouble(String message) {
+  double data = 0; // Declaramos una variable data y la inicializamos en cero
+  bool pass = false; // Esta variable nos servirá como condición para esta función
+
+  while (pass == false) {
+    print(message); // Imprimimos la cadena texto
+    
+    // Evalumaos lo que se ha ingresado
+    try {
+      data = double.tryParse(stdin.readLineSync()!)!; // Pedimos que se ingrese un dato y lo convertimos a entero
+      pass = true; // Si se ha ingresado un número, entonces "pass" será igual a true y se romperá el ciclo
+    } catch (e) {
+      print("Error!!!.. Debes digitar números"); // Si se han ingresado espacios o caracteres, generamos un error hasta que se ingrese un número
+    }
+  }
+
+  return data; // Retornamos el valor de "data"
 }
