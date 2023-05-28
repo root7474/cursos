@@ -4,8 +4,18 @@
 import 'dart:io'; // Imprtamos la librería "io"
 
 void main(List<String> arguments) {
-  // Variables a usar dentro de la aplicaión
-  String ? nombre;
+  String ? nombre; // Declaramos una variable "nombre"
+
+  // Generamos un mensaje de bienvenida y pedimos que se ingrese un nombre
+  print("Bienvenido!!!... Digita tu nombre: ");
+  nombre = stdin.readLineSync()!;
+  
+  // Llamamos a la función "menuOpciones()" y le pasamos como parámetro el nombre del usuario
+  menuOpciones(nombre);
+}
+
+void menuOpciones(String nombre) {
+  // Variables a usar dentro de la función
   int ? opcion;
   int ? cantidad;
   double ? numero;
@@ -15,10 +25,6 @@ void main(List<String> arguments) {
   double ? division;
   double ? porcentaje;
   bool pass = false; // Usamos esta variable como condicional para la ejecución del programa
-
-  // Generamos un mensaje de bienvenida y pedimos que se ingrese un nombre
-  print("Bienvenido!!!... Digita tu nombre: ");
-  nombre = stdin.readLineSync();
 
   // Se ejcutará lo diguiente mientras "pass" sea igual a false
   while (pass == false) {
@@ -226,7 +232,7 @@ int getInt(String message) {
       data = int.tryParse(stdin.readLineSync()!)!; // Pedimos que se ingrese un dato y lo convertimos a entero
       pass = true; // Si se ha ingresado un número, entonces "pass" será igual a true y se romperá el ciclo
     } catch (e) {
-      print("Error!!!.. Debes digitar números"); // Si se han ingresado espacios o caracteres, generamos un error hasta que se ingrese un número
+      print("Error!!!.. Debes digitar un número"); // Si se han ingresado espacios o caracteres, generamos un error hasta que se ingrese un número
     }
   }
 
@@ -246,7 +252,7 @@ double getDouble(String message) {
       data = double.tryParse(stdin.readLineSync()!)!; // Pedimos que se ingrese un dato y lo convertimos a entero
       pass = true; // Si se ha ingresado un número, entonces "pass" será igual a true y se romperá el ciclo
     } catch (e) {
-      print("Error!!!.. Debes digitar números"); // Si se han ingresado espacios o caracteres, generamos un error hasta que se ingrese un número
+      print("Error!!!.. Debes digitar un número"); // Si se han ingresado espacios o caracteres, generamos un error hasta que se ingrese un número
     }
   }
 
