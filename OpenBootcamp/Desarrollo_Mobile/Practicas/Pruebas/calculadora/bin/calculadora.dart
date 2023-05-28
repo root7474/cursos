@@ -14,6 +14,7 @@ void main(List<String> arguments) {
   menuOpciones(nombre);
 }
 
+// Declaramos una función para el menú de opciónes
 void menuOpciones(String nombre) {
   // Variables a usar dentro de la función
   int ? opcion;
