@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/bin/Debug/net7.0/Cadenas
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/bin/Debug/net7.0/Cadenas.deps.json
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/bin/Debug/net7.0/Cadenas.runtimeconfig.json
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/bin/Debug/net7.0/Cadenas.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/bin/Debug/net7.0/Cadenas.pdb
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/Cadenas.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/Cadenas.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/Cadenas.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/Cadenas.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/Cadenas.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/Cadenas.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/refint/Cadenas.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/Cadenas.pdb
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/Cadenas.genruntimeconfig.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/ref/Cadenas.dll
