@@ -1,0 +1,78 @@
+/* Agregamos estilos al cuerpo de nuestro documento */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #32373B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Añadimos los estilos de nuestro contenedor */
+.container {
+    position: relative;
+    width: 40%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Agreagamos los estilos de nuestro botón */
+.btn-modern {
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F4D6CC;
+    color: #32373B;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+/* Agregamos un texto antes de hacer hover con el pseudo-elemento "before" */
+.btn-modern::before {
+    content: 'Hover me';
+}
+
+/* Le damos una animación al botón con una trancisión de 0.4 segundos al pasar el cursor por encima */
+.btn-modern:hover {
+    animation: traslation 0.4s ease-in-out forwards;
+}
+
+/* Le damos una animación al texto con una trancisión de 0.4 segundos al pasar el cursor por encima */
+/* Le damos una propiedad none al atributo "box-shadow" */
+.btn-modern:hover::before {
+    box-shadow: none;
+    animation: traslation-text 0.4s ease-in-out forwards;
+}
+
+@keyframes traslation {
+    /* Posición inicial para la traslación */
+    /* El eje "y" tendrá una posición inicial de 0 píxeles */
+    0% {
+        background-color: #F4D6CC;
+        transform: translatey(0px);
+    }
+
+    /* Cuando hagamos hover, cambiará la posición a -5 píxeles */
+    /* Se cambiará el color de fondo del botón */
+    /* Se añadirá una sombra de color blanco al botón */
+    100% {
+        background-color: #6A7F80;
+        box-shadow: 0 0 5px 2px white;
+        transform: translatey(-5px);
+    }
+}
+
+@keyframes traslation-text {
+    /* Cuando hagamos hover, se cambiará el contenido del texto */
+    /* El color del texto será blanco */
+    /* Se añadirá una sombra de color blanco al texto */
+    100% {
+        content: 'Thank you';
+        color: white;
+        text-shadow: white 0 0 10px;
+    }
+}
