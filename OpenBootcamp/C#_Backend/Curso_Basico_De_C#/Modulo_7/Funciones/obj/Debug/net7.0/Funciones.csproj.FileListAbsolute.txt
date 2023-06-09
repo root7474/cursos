@@ -1,0 +1,15 @@
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/bin/Debug/net7.0/Funciones
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/bin/Debug/net7.0/Funciones.deps.json
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/bin/Debug/net7.0/Funciones.runtimeconfig.json
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/bin/Debug/net7.0/Funciones.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/bin/Debug/net7.0/Funciones.pdb
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/obj/Debug/net7.0/Funciones.csproj.AssemblyReference.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/obj/Debug/net7.0/Funciones.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/obj/Debug/net7.0/Funciones.AssemblyInfoInputs.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/obj/Debug/net7.0/Funciones.AssemblyInfo.cs
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/obj/Debug/net7.0/Funciones.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/obj/Debug/net7.0/Funciones.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/obj/Debug/net7.0/refint/Funciones.dll
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/obj/Debug/net7.0/Funciones.pdb
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/obj/Debug/net7.0/Funciones.genruntimeconfig.cache
+/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/obj/Debug/net7.0/ref/Funciones.dll
