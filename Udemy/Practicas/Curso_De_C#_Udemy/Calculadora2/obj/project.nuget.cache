@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "x8xEKOOilRMx5YYrEL3NhHs2Rvetcj7TErriPKLgQ1YbK43m1ksym1MhuRHvmeTfwt8jr87mRXmEzspQok+Oag==",
+  "dgSpecHash": "crrhDruKYhD17n8pOM6atVGTjgiq2Vl0+DI4LKFSJLxbl+f5zxqvoJUuWXRl/mTYdW6p3N2PaHgUNr1ETjp2IQ==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Calculadora2/Calculadora2.csproj",
+  "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Calculadora2/Calculadora2.csproj",
   "expectedPackageFiles": [
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }

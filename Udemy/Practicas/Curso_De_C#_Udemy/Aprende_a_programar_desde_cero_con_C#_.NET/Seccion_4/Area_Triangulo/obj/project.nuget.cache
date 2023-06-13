@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DuNAmiRMD8WMU88MGX3KhUbKWmrK8HH9k6sueP/pIwVbA7OCR0t16vDhyg+LuAJrs+f+HTOVqfCVBNN7Sggtcg==",
+  "dgSpecHash": "/5Nmg92rtaK9/+kJYfSnoH8+woXTlRaC+CxbRvzg2YUpWZ9LmPzO8u7uIdrLb2h4uCXLiyeXY4uG4XwaaTp1jw==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_4/Area_Triangulo/Area_Triangulo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_4/Area_Triangulo/Area_Triangulo.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

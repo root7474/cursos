@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "duRsT6RLXaY+52S9d/kQA4G6qlndNyzdiv57O4HlsvyY4dZSEczUXmfSX9lqBluP6QYpxEgGo6KJ4CWZmvox+w==",
+  "dgSpecHash": "BpvBwYPT6jGljuGMTwessm3hnLlbuJ7/TLvUbK65MORWGyLSr0GEmQF3eLDs/F/IaRLCIwxMIAnVz1rAD4ijOQ==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Cursos/Udemy/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_2/1_MessagePrinter/1_MessagePrinter.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_2/1_MessagePrinter/1_MessagePrinter.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ykoOy3OffcSwd4mkfZTdoUdCRa3bNw6Ze7ojrs0tE7OXmAhlM6MtFHEsH2Xqtw+Y+QlchmAHg4AyqQjV2Tb7AQ==",
+  "dgSpecHash": "c8MR4wsFvS1asnb2HteikG8vOvitnvgAuA2iof4tdqvyc6uOB1sGdRfKf32Lc/HVTcV9u8GTLjpuWv6Ot8t3jw==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Math_Methods/Math_Methods.csproj",
+  "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Math_Methods/Math_Methods.csproj",
   "expectedPackageFiles": [
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }

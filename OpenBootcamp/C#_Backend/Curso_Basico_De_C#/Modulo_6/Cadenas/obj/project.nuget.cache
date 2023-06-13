@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Vyk9JOKsi20fW/CvPgRCUD/Lu36YOwUTtXXsWWrFiN4TIqTD8Q1Z6dG/dBx7VnU3H2w96mAJIX1AwnYZ0XEy1A==",
+  "dgSpecHash": "ipaZvABdcm2mPmHZtb8lZseLcrBwVqbDF6+d9BJXNYNOR/ZehlkfkZ9cou/z00t+Kee9UXf011u22ttODBKVgg==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Módulo_6/Cadenas/Cadenas.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/root7474/Documents/cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_6/Cadenas/Cadenas.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

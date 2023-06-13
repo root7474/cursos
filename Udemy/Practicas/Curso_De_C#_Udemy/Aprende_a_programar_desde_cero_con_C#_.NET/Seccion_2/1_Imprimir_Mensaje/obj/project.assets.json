@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_2/1_Imprimir_Mensaje/1_Imprimir_Mensaje.csproj",
+      "projectUniqueName": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_2/1_Imprimir_Mensaje/1_Imprimir_Mensaje.csproj",
       "projectName": "1_Imprimir_Mensaje",
-      "projectPath": "/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_2/1_Imprimir_Mensaje/1_Imprimir_Mensaje.csproj",
+      "projectPath": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_2/1_Imprimir_Mensaje/1_Imprimir_Mensaje.csproj",
       "packagesPath": "/home/root7474/.nuget/packages/",
-      "outputPath": "/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_2/1_Imprimir_Mensaje/obj/",
+      "outputPath": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_2/1_Imprimir_Mensaje/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/root7474/.nuget/NuGet/NuGet.Config"
@@ -54,12 +54,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.5, 7.0.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[7.0.5, 7.0.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.5, 7.0.5]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

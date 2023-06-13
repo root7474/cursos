@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "d4q8kxcWUvQPct9rYfh5AvmDD4M9SPpCIN9KhYsBAey5GQnaLQLS1stuK3OSqDtjJXMAbzCKUOcolejPAHzcKw==",
+  "dgSpecHash": "a2CvzCVJzF35lefMA/De3DapOlcYl9ru/7siX5ebJI/zv0d1lqnwlPOGZoeOBYFv1U05Vp5h8KSs5zXT4kClKg==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Módulo_6/Arrays/Arrays.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/root7474/Documents/cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_6/Arrays/Arrays.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

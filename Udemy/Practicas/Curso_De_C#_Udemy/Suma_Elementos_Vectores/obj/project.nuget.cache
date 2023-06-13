@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BMLOZoFeX7Oscccn44+JbSoe8HMM+8PP8EMyPsCtCTy/e03XW9ekmv3IrPt/6l8xMkt6yvrOE6YO0Hwfe6YSqA==",
+  "dgSpecHash": "i0fnRu3jDN8KBcnH/K2Tbv5dV5jEvgjdVvRvZz525NjcENWALyWdQ5KEXwujFM3vvwJnlfWvMVlb6Sk37E61+w==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Suma_Elementos_Vectores/Suma_Elementos_Vectores.csproj",
+  "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Vectores/Suma_Elementos_Vectores.csproj",
   "expectedPackageFiles": [
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }

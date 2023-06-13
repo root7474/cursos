@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iYYC4yld8N7/Glax21oYcqQ2ZQx8DlAKnioB+AM0Jsx4XF0MYOy3hwQPnyJJA3E+wYXxwzuwwvmShplR3cYaXA==",
+  "dgSpecHash": "9KD+LMDKzDn2d+Mm3CkacLBRzucLjwCTn49WW06DqRTwdOOW/h1aJLEv8TOFiWjoeCjDAiUTRVN7A/ONdDoFhA==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/Funciones.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/root7474/Documents/cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_7/Funciones/Funciones.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

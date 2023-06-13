@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xN7ZaCnzXJ+qdAAqUQqYfL190BiTclhmyXkXHxgLZkCzeA30sApPQo/gnl7IJlw17rhBK/KZ06j4REYF0IRjCA==",
+  "dgSpecHash": "gTJWHGfvmir6LkbOQdSo+w4IiQZEdEVKrzub3TFowWMmB8I9XgQIC8xA+1Dum2MwlbwrNVx0bS2UGs/cQ8h6MA==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_4/Tipos_Variables_Constantes/Tipos_Variables_Constantes.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_4/Tipos_Variables_Constantes/Tipos_Variables_Constantes.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

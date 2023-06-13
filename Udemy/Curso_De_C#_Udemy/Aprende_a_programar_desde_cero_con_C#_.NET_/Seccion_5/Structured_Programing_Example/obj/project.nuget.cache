@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3m6ig4DwQIB60sVU1qqFiYz9GAOVtwJbJ0PE9qXTO5c63RTQVtWunXe/YIqj4XgehN3hgrLfcbae16eXZJPkHA==",
+  "dgSpecHash": "Wdd+AgOca1mQPTQ6ecuIYfni+kt1SaCsx6kbPG/uCWK4H5gF8OFdagpuVeGJhxv7in4L/TbhpI3AZcw7d1DvAQ==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_5/Structured_Programing_Example/Structured_Programing_Example.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_5/Structured_Programing_Example/Structured_Programing_Example.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wUul0HYR2x0fTZYi7QJLSIIneeNoVppbd9vurG7ApWKc8RwE6VkAP8tR6e/2Cq2RFX3TskO6qYB3I2XVX+t8XQ==",
+  "dgSpecHash": "QuTNB9mV8vaHIcV9EpvQb9PhOG+7ez6HxrkV4204FoZzNcwhlKU5BehXIle/PcvxNMY+N+WzqFaCypSvLXmwXw==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Cursos/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MyFirstApp/MyFirstApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MyFirstApp/MyFirstApp.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

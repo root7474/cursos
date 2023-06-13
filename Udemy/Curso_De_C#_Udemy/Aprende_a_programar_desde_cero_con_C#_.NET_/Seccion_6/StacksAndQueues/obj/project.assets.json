@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/StacksAndQueues/StacksAndQueues.csproj",
+      "projectUniqueName": "/home/root7474/Documents/cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/StacksAndQueues/StacksAndQueues.csproj",
       "projectName": "StacksAndQueues",
-      "projectPath": "/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/StacksAndQueues/StacksAndQueues.csproj",
+      "projectPath": "/home/root7474/Documents/cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/StacksAndQueues/StacksAndQueues.csproj",
       "packagesPath": "/home/root7474/.nuget/packages/",
-      "outputPath": "/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/StacksAndQueues/obj/",
+      "outputPath": "/home/root7474/Documents/cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/StacksAndQueues/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/root7474/.nuget/NuGet/NuGet.Config"
@@ -54,12 +54,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.5, 7.0.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[7.0.5, 7.0.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.5, 7.0.5]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

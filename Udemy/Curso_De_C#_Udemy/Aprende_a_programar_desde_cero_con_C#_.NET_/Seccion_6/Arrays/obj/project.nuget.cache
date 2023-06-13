@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Aw3DUfP1QGx/fA8haVOVYTCmB2cXNAgxXx0aTAImHauGSptCTVQmRyCkL/1Fcyhtp3BJyvAx9+hRskAyCFE9fw==",
+  "dgSpecHash": "5/cGOP3PKdRe8tlXnvzjwtFGeKtWuK5xhoSvfvShp3hFuuNBiv+sHK9glRgENyEVzgO60za7oA8Uc7eY5QeB6g==",
   "success": true,
-  "projectFilePath": "/home/root7474/Documents/Cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Arrays/Arrays.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/Arrays/Arrays.csproj",
+  "expectedPackageFiles": [
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
