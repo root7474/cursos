@@ -1,4 +1,4 @@
-
+package org.condicionales;
 
 public class SentenciaSwitch {
     public static void main(String[] args) {

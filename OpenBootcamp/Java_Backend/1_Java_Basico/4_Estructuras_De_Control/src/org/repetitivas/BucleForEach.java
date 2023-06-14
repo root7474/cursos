@@ -1,4 +1,4 @@
-
+package org.repetitivas;
 
 public class BucleForEach {
     public static void main(String[] args) {
