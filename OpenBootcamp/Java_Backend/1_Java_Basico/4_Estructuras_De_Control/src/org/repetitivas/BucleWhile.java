@@ -1,4 +1,4 @@
-package org.repetitivas;
+
 
 public class BucleWhile {
     public static void main(String[] args) {

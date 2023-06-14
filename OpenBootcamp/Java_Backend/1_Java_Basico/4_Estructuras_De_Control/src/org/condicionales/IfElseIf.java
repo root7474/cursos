@@ -1,4 +1,4 @@
-package org.condicionales;
+
 
 public class IfElseIf {
     public static void main(String[] args) {
