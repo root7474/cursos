@@ -1,0 +1,8 @@
+import 'package:clientes_clases_2/clientes_clases_2.dart';
+import 'package:test/test.dart';
+
+void main() {
+  test('calculate', () {
+    expect(calculate(), 42);
+  });
+}
