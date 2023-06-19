@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kj3SQ+dwnkaEsrAki8tONJTS55dmZtbmAnkB37waAtzqeGQf/NMAhe2LF4oJV0nR0sHwKS1XEkSRyDE4jIdWlA==",
+  "dgSpecHash": "13G3R15BqyIUpVaAbPG+xK5VjIav+esy3IYufYAvTJMQX8F26zSXnYpIbV3CUG8AvOLMJUIw2vzHVrski8GsQQ==",
   "success": true,
   "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_6/Estudiantes_Calificaciones/Estudiantes_Calificaciones.csproj",
-  "expectedPackageFiles": [
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,15 @@
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/bin/Debug/net7.0/Instruccion_ForEach
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/bin/Debug/net7.0/Instruccion_ForEach.deps.json
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/bin/Debug/net7.0/Instruccion_ForEach.runtimeconfig.json
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/bin/Debug/net7.0/Instruccion_ForEach.dll
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/bin/Debug/net7.0/Instruccion_ForEach.pdb
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/obj/Debug/net7.0/Instruccion_ForEach.csproj.AssemblyReference.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/obj/Debug/net7.0/Instruccion_ForEach.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/obj/Debug/net7.0/Instruccion_ForEach.AssemblyInfoInputs.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/obj/Debug/net7.0/Instruccion_ForEach.AssemblyInfo.cs
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/obj/Debug/net7.0/Instruccion_ForEach.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/obj/Debug/net7.0/Instruccion_ForEach.dll
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/obj/Debug/net7.0/refint/Instruccion_ForEach.dll
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/obj/Debug/net7.0/Instruccion_ForEach.pdb
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/obj/Debug/net7.0/Instruccion_ForEach.genruntimeconfig.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Instruccion_ForEach/obj/Debug/net7.0/ref/Instruccion_ForEach.dll

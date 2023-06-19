@@ -12,3 +12,6 @@ OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_6/Arrays/obj/Debug/net7.0/*.ca
 
 # .class Java
 **.class
+
+# Binaries
+**.bin

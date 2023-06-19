@@ -1,0 +1,15 @@
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/bin/Debug/net7.0/Suma_Elementos_Matricez
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/bin/Debug/net7.0/Suma_Elementos_Matricez.deps.json
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/bin/Debug/net7.0/Suma_Elementos_Matricez.runtimeconfig.json
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/bin/Debug/net7.0/Suma_Elementos_Matricez.dll
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/bin/Debug/net7.0/Suma_Elementos_Matricez.pdb
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/obj/Debug/net7.0/Suma_Elementos_Matricez.csproj.AssemblyReference.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/obj/Debug/net7.0/Suma_Elementos_Matricez.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/obj/Debug/net7.0/Suma_Elementos_Matricez.AssemblyInfoInputs.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/obj/Debug/net7.0/Suma_Elementos_Matricez.AssemblyInfo.cs
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/obj/Debug/net7.0/Suma_Elementos_Matricez.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/obj/Debug/net7.0/Suma_Elementos_Matricez.dll
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/obj/Debug/net7.0/refint/Suma_Elementos_Matricez.dll
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/obj/Debug/net7.0/Suma_Elementos_Matricez.pdb
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/obj/Debug/net7.0/Suma_Elementos_Matricez.genruntimeconfig.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Suma_Elementos_Matricez/obj/Debug/net7.0/ref/Suma_Elementos_Matricez.dll

@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HmDi345gILiIWRF1m9BBWeWYsXoA+BLB+3jA6tKBN3cXPDaTaeltKUfsBjTOK4TG8014OHC6fZ5C5BnsRSDbJg==",
+  "dgSpecHash": "Ew818b5LE2PP/q0n2d46AsTVQY3tx7qOlJpLlmiA06Vu1UR5x8Bz+wi+SO6yoh6iqvMwfvzJVjCyO0I9xIVh1A==",
   "success": true,
   "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET_/Seccion_6/StacksAndQueues/StacksAndQueues.csproj",
-  "expectedPackageFiles": [
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

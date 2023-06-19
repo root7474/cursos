@@ -1,0 +1,15 @@
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/bin/Debug/net7.0/calculadora
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/bin/Debug/net7.0/calculadora.deps.json
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/bin/Debug/net7.0/calculadora.runtimeconfig.json
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/bin/Debug/net7.0/calculadora.dll
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/bin/Debug/net7.0/calculadora.pdb
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/obj/Debug/net7.0/calculadora.csproj.AssemblyReference.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/obj/Debug/net7.0/calculadora.GeneratedMSBuildEditorConfig.editorconfig
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/obj/Debug/net7.0/calculadora.AssemblyInfoInputs.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/obj/Debug/net7.0/calculadora.AssemblyInfo.cs
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/obj/Debug/net7.0/calculadora.csproj.CoreCompileInputs.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/obj/Debug/net7.0/calculadora.dll
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/obj/Debug/net7.0/refint/calculadora.dll
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/obj/Debug/net7.0/calculadora.pdb
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/obj/Debug/net7.0/calculadora.genruntimeconfig.cache
+/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/calculadora/obj/Debug/net7.0/ref/calculadora.dll

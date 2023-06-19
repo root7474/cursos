@@ -18,7 +18,7 @@ namespace MyNamespace
     {
         int ancho;
         int alto;
-        string color;
+        string ? color;
         string ? material;
         bool abierta;
 

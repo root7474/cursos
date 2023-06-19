@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zs4zy1B9drtNBbWzispukABcRV/+3AJWBPHHARo1QJsxeMcR6RYf34la+cj4q1FDWaMuPp+wSzH7hh+q4nsfYA==",
+  "dgSpecHash": "BwxRGFvDzkIAMvxAHyYgZRjA9OT4bThnaIwCFkO66lAOe8AzzzVOzDvKNX5o1M/2iBg4dDToUnHHjT1S9vUnKA==",
   "success": true,
   "projectFilePath": "/home/root7474/Documents/cursos/Udemy/Practicas/Curso_De_C#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/Seccion_2/1_Imprimir_Mensaje/1_Imprimir_Mensaje.csproj",
-  "expectedPackageFiles": [
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.ref/7.0.5/microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
-    "/home/root7474/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.5/microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
