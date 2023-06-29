@@ -2,9 +2,6 @@
 OpenBootcamp/OpenBootcamp_GitHub
 Udemy/Udemy_GitHub
 
-# Configuraciones .json
-*.json
-
 # Directorios
 .vscode
 

@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/Cadenas.csproj": {}
+  },
+  "projects": {
+    "/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/Cadenas.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/Cadenas.csproj",
+        "projectName": "Cadenas",
+        "projectPath": "/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/Cadenas.csproj",
+        "packagesPath": "/home/root7474/.nuget/packages/",
+        "outputPath": "/home/root7474/Documents/Cursos/OpenBootcamp/C#_Backend/Practicas/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/root7474/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
