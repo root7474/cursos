@@ -1,8 +1,8 @@
-# Archivos descargados de OpenBootcamp
+# OpenBootcamp downloaded files
 OpenBootcamp/OpenBootcamp_GitHub
 Udemy/Udemy_GitHub
 
-# Directorios
+# Directories
 .vscode
 
 # .class Java
@@ -10,3 +10,5 @@ Udemy/Udemy_GitHub
 
 # Binaries
 **.bin
+bin
+obj
