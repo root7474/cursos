@@ -1,6 +1,15 @@
-# Archivos descargados de OpenBootcamp
+# OpenBootcamp downloaded files
 OpenBootcamp/OpenBootcamp_GitHub
 Udemy/Udemy_GitHub
 
-# Configuraciones .json
-package_config.json
+# Directories
+.vscode
+Desarrollo_Mobile
+
+# .class Java
+**.class
+
+# Binaries
+**.bin
+bin
+obj
