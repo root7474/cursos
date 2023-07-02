@@ -1,27 +1,64 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive",
-    "java.project.sourcePaths": [
-        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/try_catch_throw_throws_practica/app/src/main/java",
-        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/listas_y_mapas/app/src/main/java",
-        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/arrays/app/src/main/java",
-        "OpenBootcamp/Java_Backend/Practicas/1_Java_Basico/1_Conceptos/scanner_practica/app/src/main/java"
-    ],
+    "workbench.colorTheme": "c262185d-9682-413b-9143-85a2dda76b2f",
+    "files.autoSave": "onFocusChange",
+    "workbench.iconTheme": "material-icon-theme",
+    "css.lint.unknownAtRules": "ignore",
+    
+    "csharp.format.enable": false,
+    
+    "code-runner.executorMap": {
+        "python": "/home/root7474/.pyenv/versions/3.11.4/bin/python",
+        ".csproj": "dotnet run --project",
+        ".dart": "dart"
+    },
 
-    "sqltools.connections": [
-        {
-            "mysqlOptions": {
-                "authProtocol": "default"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "askForPassword": true,
-            "driver": "MySQL",
-            "name": "Connection_1",
-            "database": "sakila",
-            "username": "Da7474"
-        }
+    "code-runner.runInTerminal": true,
+    "redhat.telemetry.enabled": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "omnisharp.dotnetPath": "/usr/bin/dotnet",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.editorAssociations": {
+        "*.dll": "default",
+        "*.md": "default",
+        "*.pdf": "pdf.preview"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "git.autofetch": true,
+    "python.defaultInterpreterPath": "/home/root7474/.pyenv/versions/Python-3.11.1/bin/python",
+    "sqltools.useNodeRuntime": true,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.linkedEditing": true,
+    "omnisharp.sdkPath": "/usr/share/dotnet/sdk/7.0.202/",
+    "dotnetAcquisitionExtension.existingDotnetPath": [
+        
+    
     ],
-    "java.compile.nullAnalysis.mode": "automatic",
-    "java.debug.settings.onBuildFailureProceed": true
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "dart.enableSdkFormatter": false,
+    "java.project.outputPath": "",
 }
