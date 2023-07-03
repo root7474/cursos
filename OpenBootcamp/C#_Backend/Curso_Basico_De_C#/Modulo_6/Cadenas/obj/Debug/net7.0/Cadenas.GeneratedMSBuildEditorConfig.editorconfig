@@ -7,10 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-<<<<<<< HEAD:OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_6/Cadenas/obj/Debug/net7.0/Cadenas.GeneratedMSBuildEditorConfig.editorconfig
 build_property.RootNamespace = Cadenas
 build_property.ProjectDir = /home/root7474/Documents/cursos/OpenBootcamp/C#_Backend/Curso_Basico_De_C#/Modulo_6/Cadenas/
-=======
-build_property.RootNamespace = Condicion_If
-build_property.ProjectDir = /home/root7474/Documents/cursos/Udemy/Curso_De_C#_Udemy/C#_Nivel_Basico/Condicion_If/
->>>>>>> rama-fix-calculadora:Udemy/Curso_De_C#_Udemy/C#_Nivel_Basico/Condicion_If/obj/Debug/net7.0/Condicion_If.GeneratedMSBuildEditorConfig.editorconfig
