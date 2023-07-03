@@ -61,4 +61,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "dart.enableSdkFormatter": false,
     "java.project.outputPath": "",
+    "java.project.sourcePaths": [
+        "OpenBootcamp/Java_Backend/Practicas/Pruebas/calculadora/app/src/main/java"
+    ],
 }
