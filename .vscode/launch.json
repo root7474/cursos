@@ -1,0 +1,364 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.calculadora.Main",
+            "projectName": "cursos_ead4b4c0"
+        },
+        {
+            "type": "java",
+            "name": "SacnnerMain",
+            "request": "launch",
+            "mainClass": "org.scanner_practica.SacnnerMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ThrowMain",
+            "request": "launch",
+            "mainClass": "org.try_catch_throw_throws_practica.ThrowMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "TryCatchMain",
+            "request": "launch",
+            "mainClass": "org.try_catch_throw_throws_practica.TryCatchMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "MapMain",
+            "request": "launch",
+            "mainClass": "org.listas_y_mapas_practica.MapMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ListasMain",
+            "request": "launch",
+            "mainClass": "org.listas_y_mapas_practica.ListasMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ArraysMain",
+            "request": "launch",
+            "mainClass": "org.arrays_practica.ArraysMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "StringMain",
+            "request": "launch",
+            "mainClass": "org.tipos_practica.StringMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "InterfacesMain",
+            "request": "launch",
+            "mainClass": "org.java_poo_practica.interfaces.InterfacesMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "CocheMain",
+            "request": "launch",
+            "mainClass": "org.java_poo.CocheMain",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "CeroDividirMain",
+            "request": "launch",
+            "mainClass": "org.calculadora.CeroDividirMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ScannerMain",
+            "request": "launch",
+            "mainClass": "org.arrays.ScannerMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ThrowMain",
+            "request": "launch",
+            "mainClass": "org.arrays.ThrowMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "TryCatchMain",
+            "request": "launch",
+            "mainClass": "org.arrays.TryCatchMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "MapMain",
+            "request": "launch",
+            "mainClass": "org.arrays.MapMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "LisatasMain",
+            "request": "launch",
+            "mainClass": "org.arrays.LisatasMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.arrays.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "StringMain",
+            "request": "launch",
+            "mainClass": "org.tipos.StringMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "InterfacesMain",
+            "request": "launch",
+            "mainClass": "org.java_poo.interfaces.InterfacesMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "PolimorfismoMain",
+            "request": "launch",
+            "mainClass": "org.java_poo.PolimorfismoMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "CocheMain",
+            "request": "launch",
+            "mainClass": "org.java_poo.CocheMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "PolimorfismoMain",
+            "request": "launch",
+            "mainClass": "org.Poo.PolimorfismoMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "CocheMain",
+            "request": "launch",
+            "mainClass": "org.Poo.CocheMain",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "FuncionesPrueba",
+            "request": "launch",
+            "mainClass": "org.prueba_funciones_conceptos_java.FuncionesPrueba",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.openbootcamp.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoop",
+            "request": "launch",
+            "mainClass": "org.company.WhileLoop",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ForLoop",
+            "request": "launch",
+            "mainClass": "org.company.ForLoop",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ifElse",
+            "request": "launch",
+            "mainClass": "org.company.ifElse",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Switch",
+            "request": "launch",
+            "mainClass": "org.company.Switch",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.calculadora.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.agro_smart_tech.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "pruebaFunciones",
+            "request": "launch",
+            "mainClass": "org.prueba.pruebaFunciones",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Funciones",
+            "request": "launch",
+            "mainClass": "org.company.Funciones",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.company.Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "org.company.Main2",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "pruebaFunciones",
+            "request": "launch",
+            "mainClass": "org.prueba.pruebaFunciones",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Funciones",
+            "request": "launch",
+            "mainClass": "org.company.Funciones",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Prueba",
+            "request": "launch",
+            "mainClass": "org.prueba.Prueba",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.company.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoop",
+            "request": "launch",
+            "mainClass": "company.WhileLoop",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "FuncionesPrueba",
+            "request": "launch",
+            "mainClass": "prueba.FuncionesPrueba",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "ForLoop",
+            "request": "launch",
+            "mainClass": "company.ForLoop",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "pruebaFunciones",
+            "request": "launch",
+            "mainClass": "prueba.pruebaFunciones",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "company.Main",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Prueba",
+            "request": "launch",
+            "mainClass": "prueba_paquete.Prueba",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "prueba_java.Main",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Funciones",
+            "request": "launch",
+            "mainClass": "company.Funciones",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "FuncionesPrueba",
+            "request": "launch",
+            "mainClass": "prueba2.FuncionesPrueba",
+            "projectName": "Cursos_b439a0e0"
+        },
+        {
+            "type": "java",
+            "name": "FuncionesPrueba",
+            "request": "launch",
+            "mainClass": "org.prueba.FuncionesPrueba",
+            "projectName": ""
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/MySecondApp/bin/Debug/net7.0/MySecondApp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Udemy/Practicas/CursoDeC#_Udemy/Aprende_a_programar_desde_cero_con_C#_.NET/",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
